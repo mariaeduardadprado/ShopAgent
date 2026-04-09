@@ -187,3 +187,23 @@ class MCPSupabase:
         """)
 
         return resultado.dados
+
+    def get_produto_mais_caro(self) -> dict:
+        """Retorna o produto com maior preço unitário."""
+        resultado = self.executar_query("""
+            SELECT nome, categoria, preco
+            FROM produtos
+            ORDER BY preco DESC
+            LIMIT 1
+        """)
+        return resultado.dados[0] if resultado.dados else {}
+
+    def get_produtos_por_preco(self, limite: int = 5) -> list[dict]:
+        """Retorna os produtos ordenados por preço decrescente."""
+        resultado = self.executar_query("""
+            SELECT nome, categoria, preco, estoque
+            FROM produtos
+            ORDER BY preco DESC
+            LIMIT %s
+        """, (limite,))
+        return resultado.dados

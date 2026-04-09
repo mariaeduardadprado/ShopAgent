@@ -48,6 +48,8 @@ KEYWORDS_SQL = [
     "evolução", "crescimento", "mensal", "comparar meses",
     "estoque", "quanto", "total", "média", "media",
     "percentual", "porcentagem", "%", "R$",
+    "mais caro", "mais barato", "preço", "preco", 
+    "valor", "custo", "produto mais",               
 ]
 
 KEYWORDS_SEMANTICO = [

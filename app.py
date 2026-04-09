@@ -1,30 +1,22 @@
-# app.py
-"""
-Interface de chat com Chainlit.
-
-O Chainlit transforma qualquer função Python assíncrona em um
-chat web funcional. É o ponto de entrada do usuário no sistema.
-
-Para rodar: chainlit run app.py
-"""
-
+# app.py — versão final com observabilidade
+import time
 import chainlit as cl
 from agents.shop_crew import ShopCrew
+from services.observability import ObservabilityService
 
-# Instancia o crew uma vez — conexões com BD ficam abertas
-shop_crew = ShopCrew()
+shop_crew    = ShopCrew()
+observability = ObservabilityService()
 
 
 @cl.on_chat_start
 async def iniciar():
-    """Executado quando o usuário abre o chat."""
     await cl.Message(
         content=(
             "👋 Olá! Sou o **ShopAgent**, seu analista de e-commerce.\n\n"
             "Posso responder sobre:\n"
             "- 📊 **Métricas**: faturamento, ticket médio, vendas por região\n"
-            "- 💬 **Reviews**: satisfação, reclamações, sentimento dos clientes\n"
-            "- 🔀 **Combinado**: vendas + opinião dos clientes juntos\n\n"
+            "- 💬 **Reviews**: satisfação, reclamações, sentimento\n"
+            "- 🔀 **Combinado**: vendas + opinião juntos\n\n"
             "O que você quer saber?"
         )
     ).send()
@@ -32,26 +24,39 @@ async def iniciar():
 
 @cl.on_message
 async def responder(message: cl.Message):
-    """Executado a cada mensagem do usuário."""
-
     pergunta = message.content.strip()
-
     if not pergunta:
         return
 
-    # Mostra indicador de digitação enquanto processa
+    inicio = time.time()
+    erro = None
+
     async with cl.Step(name="🤖 Analisando com agentes...") as step:
         step.input = pergunta
+        try:
+            import asyncio
+            resposta = await asyncio.get_event_loop().run_in_executor(
+                None, shop_crew.responder, pergunta
+            )
+            step.output = "Concluído"
+        except Exception as e:
+            erro = str(e)
+            resposta = "Desculpe, ocorreu um erro ao processar sua pergunta."
+            step.output = f"Erro: {erro}"
 
-        # Executa o crew (operação síncrona — rodar em thread)
-        import asyncio
-        resposta = await asyncio.get_event_loop().run_in_executor(
-            None,
-            shop_crew.responder,
-            pergunta,
-        )
+    duracao_ms = int((time.time() - inicio) * 1000)
 
-        step.output = "Análise concluída"
+    # Classifica para registrar o tipo no LangFuse
+    classificacao = shop_crew.router.classificar(pergunta)
 
-    # Envia a resposta final
+    # Registra no LangFuse (não bloqueia a resposta)
+    observability.registrar_interacao(
+        pergunta=pergunta,
+        resposta=resposta,
+        tipo_query=str(classificacao.tipo),
+        duracao_ms=duracao_ms,
+        erro=erro,
+    )
+    observability.flush()
+
     await cl.Message(content=resposta).send()

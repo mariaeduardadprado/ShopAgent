@@ -8,11 +8,14 @@ from services.mcp_supabase import MCPSupabase
 _supabase = MCPSupabase()
 
 
+# agents/analyst_agent.py — expandir o @tool
+
 @tool("consultar_metricas")
 def consultar_metricas(tipo: str) -> str:
     """
     Consulta métricas do e-commerce no banco SQL.
-    Valores válidos para tipo: 'geral', 'regiao', 'produtos', 'evolucao'.
+    Valores válidos para tipo: 'geral', 'regiao', 'produtos', 
+    'evolucao', 'preco'.
     """
     if tipo == "geral":
         m = _supabase.get_metricas_gerais()
@@ -40,8 +43,15 @@ def consultar_metricas(tipo: str) -> str:
             f"{m['mes']}: R$ {float(m['faturamento']):,.2f} ({m['total_pedidos']} pedidos)"
             for m in meses
         )
+    elif tipo == "preco":                                      # ← novo
+        mais_caros = _supabase.get_produtos_por_preco(5)
+        linhas = [
+            f"{p['nome']} ({p['categoria']}): R$ {float(p['preco']):,.2f}"
+            for p in mais_caros
+        ]
+        return "Produtos mais caros:\n" + "\n".join(linhas)
     else:
-        return "Tipo inválido. Use: geral, regiao, produtos ou evolucao."
+        return "Tipo inválido. Use: geral, regiao, produtos, evolucao ou preco."
 
 
 def criar_analyst_agent() -> Agent:
