@@ -53,8 +53,10 @@ KEYWORDS_SQL = [
 KEYWORDS_SEMANTICO = [
     "review", "avaliação", "avaliacao", "opinião", "opiniao",
     "reclamação", "reclamacao", "elogio", "feedback",
-    "clientes dizem", "clientes falam", "satisfação", "satisfacao",
-    "sentimento", "experiência", "experiencia", "prazo",
+    "clientes dizem", "clientes falam", "clientes acham",  
+    "clientes pensam", "o que acham", "o que dizem",        
+    "satisfação", "satisfacao", "sentimento",
+    "experiência", "experiencia", "prazo",
     "entrega", "qualidade", "atendimento", "suporte",
     "problema", "defeito", "insatisfeito", "feliz", "amei",
 ]
