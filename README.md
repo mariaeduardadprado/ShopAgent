@@ -348,7 +348,7 @@ Em produção, isso permite:
 
 ---
 
-## Autor: Maria EDuarda Prado
+## Autor: Maria Eduarda Prado
 
 Desenvolvido como projeto de portfólio em arquitetura multi-agent com IA aplicada a e-commerce.
 
