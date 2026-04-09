@@ -1,0 +1,501 @@
+id,produto_id,cliente_nome,cliente_email,regiao,quantidade,valor_total,status,criado_em
+1,12,Lorena Fogaça,lorenzomarques@example.com,Nordeste,5,9121.4,aprovado,2026-03-20 21:01:52.918098
+2,25,Arthur Gabriel Alves,joao-lucasfernandes@example.org,Sudeste,3,238.98,pendente,2026-02-06 19:01:52.918098
+3,15,Otávio Araújo,rebeca09@example.net,Nordeste,3,8422.65,aprovado,2026-01-06 16:01:52.918098
+4,23,Jade Correia,andre73@example.com,Nordeste,1,88.29,aprovado,2026-02-22 05:01:52.918098
+5,6,Davi Lucca Cavalcanti,caleb37@example.org,Sul,4,3184.84,aprovado,2025-10-25 00:01:52.918098
+6,22,Dra. Ana Sophia Oliveira,wfernandes@example.org,Nordeste,3,172.41,cancelado,2026-03-23 15:01:52.918098
+7,11,João Miguel Santos,barbararamos@example.net,Norte,4,8809.68,aprovado,2026-02-11 04:01:52.918098
+8,11,Anna Liz Santos,lucas-gabriel13@example.net,Sul,2,4404.84,aprovado,2025-12-26 02:01:52.918098
+9,9,Fernando Siqueira,kpimenta@example.net,Sudeste,2,205.08,aprovado,2025-11-14 05:01:52.918098
+10,19,Sr. Luiz Fernando Teixeira,nina33@example.com,Sudeste,4,301.44,cancelado,2025-12-25 11:01:52.918098
+11,5,Ana Cecília Castro,ana-juliaaragao@example.com,Sudeste,5,40309.3,aprovado,2026-03-25 19:01:52.918098
+12,6,Lívia Gonçalves,hadassacaldeira@example.com,Sul,4,3184.84,aprovado,2025-12-29 10:01:52.918098
+13,15,Maria Flor da Mata,jsilveira@example.com,Nordeste,5,14037.75,aprovado,2025-11-16 22:01:52.918098
+14,4,Maria Laura Souza,goncalvescaroline@example.net,Sudeste,5,5958.05,aprovado,2025-10-24 12:01:52.918098
+15,14,Davi Moreira,lorenzo73@example.com,Nordeste,2,6094.38,aprovado,2026-01-29 06:01:52.918098
+16,17,Lorena Moreira,macedovitoria@example.org,Sul,1,479.79,cancelado,2026-01-20 02:01:52.918098
+17,7,Maria Eduarda Nunes,tda-rocha@example.net,Centro-Oeste,2,213.1,aprovado,2026-02-24 05:01:52.918098
+18,17,Alexandre Costa,dfreitas@example.com,Sudeste,1,479.79,aprovado,2025-12-02 22:01:52.918098
+19,12,Lucas Santos,rochaalicia@example.net,Centro-Oeste,3,5472.84,aprovado,2026-02-04 04:01:52.918098
+20,3,Sr. Gael Henrique Montenegro,asafe63@example.com,Sudeste,4,8967.32,cancelado,2025-11-21 18:01:52.918098
+21,16,Sra. Marina da Mota,arthur69@example.com,Sudeste,5,802.5,aprovado,2025-11-22 03:01:52.918098
+22,7,Bernardo Almeida,amanda41@example.com,Nordeste,5,532.75,aprovado,2025-10-12 16:01:52.918098
+23,13,Dra. Mariane Pimenta,josueteixeira@example.com,Sudeste,3,9741.45,aprovado,2025-11-25 08:01:52.918098
+24,8,Stephany Rios,agathada-rosa@example.org,Sudeste,1,356.07,aprovado,2025-11-07 05:01:52.918098
+25,8,João Miguel das Neves,lcarvalho@example.org,Sudeste,1,356.07,aprovado,2025-10-27 21:01:52.918098
+26,2,João Gabriel Cardoso,ioliveira@example.com,Nordeste,3,20254.17,aprovado,2026-02-05 14:01:52.918098
+27,7,Carlos Eduardo Vargas,maria-julia55@example.net,Sul,5,532.75,aprovado,2025-11-11 04:01:52.918098
+28,16,Sr. Raul Teixeira,maria-sophia88@example.org,Sudeste,4,642.0,aprovado,2026-03-13 01:01:52.918098
+29,14,João Gabriel Sampaio,rcavalcanti@example.net,Nordeste,4,12188.76,aprovado,2026-03-24 01:01:52.918098
+30,21,Luiz Felipe Casa Grande,waraujo@example.org,Sudeste,1,78.33,aprovado,2026-01-10 19:01:52.918098
+31,7,Isabel Rodrigues,cardosoemanuella@example.com,Sudeste,5,532.75,aprovado,2025-12-19 17:01:52.918098
+32,8,Lara Viana,lorenzo36@example.org,Sudeste,1,356.07,aprovado,2025-11-17 19:01:52.918098
+33,18,Felipe Carvalho,ravi00@example.net,Sudeste,1,77.94,pendente,2026-02-05 17:01:52.918098
+34,16,Maria Fernanda Pimenta,luiz-henrique47@example.com,Sudeste,2,321.0,cancelado,2026-03-22 17:01:52.918098
+35,13,Ágatha Rocha,da-motaester@example.net,Sudeste,3,9741.45,pendente,2025-12-11 13:01:52.918098
+36,24,Sra. Maya Correia,ifogaca@example.org,Sudeste,5,173.15,aprovado,2025-12-03 18:01:52.918098
+37,7,Henrique Sousa,vitor-gabriel64@example.net,Nordeste,1,106.55,aprovado,2025-11-19 21:01:52.918098
+38,2,Marina Cavalcanti,luiza63@example.org,Sudeste,1,6751.39,aprovado,2025-11-29 06:01:52.918098
+39,17,Agatha da Cunha,moraesmaria-sophia@example.net,Sudeste,1,479.79,cancelado,2026-03-20 03:01:52.918098
+40,8,Carolina da Costa,smelo@example.org,Sul,4,1424.28,aprovado,2025-11-12 15:01:52.918098
+41,2,Sra. Manuela Santos,raulaparecida@example.net,Sul,5,33756.95,aprovado,2025-10-20 04:01:52.918098
+42,11,Sara Gonçalves,dpires@example.net,Sudeste,3,6607.26,aprovado,2026-01-16 15:01:52.918098
+43,5,Rafael Caldeira,benjaminramos@example.com,Sul,3,24185.58,aprovado,2026-03-19 22:01:52.918098
+44,19,Maria Fernanda Machado,benjaminfarias@example.net,Sudeste,1,75.36,aprovado,2026-02-11 06:01:52.918098
+45,12,Diogo Cunha,dompimenta@example.com,Sudeste,1,1824.28,cancelado,2026-01-02 13:01:52.918098
+46,18,Lunna Nogueira,dantemontenegro@example.com,Sudeste,3,233.82,aprovado,2025-10-21 06:01:52.918098
+47,18,José Miguel Fogaça,da-cunhadom@example.org,Sudeste,3,233.82,pendente,2026-03-11 18:01:52.918098
+48,4,Laura Ferreira,camila07@example.net,Sudeste,5,5958.05,aprovado,2026-01-24 03:01:52.918098
+49,11,Juliana Teixeira,mendesmaria-vitoria@example.org,Sul,2,4404.84,aprovado,2026-01-29 06:01:52.918098
+50,2,Marcos Vinicius Araújo,inunes@example.net,Sudeste,1,6751.39,aprovado,2026-01-26 21:01:52.918098
+51,25,Daniel Vasconcelos,theodoro57@example.net,Nordeste,2,159.32,aprovado,2026-01-29 17:01:52.918098
+52,18,Manuella Nogueira,isabellima@example.org,Centro-Oeste,4,311.76,aprovado,2026-03-09 20:01:52.918098
+53,23,Davi Miguel Alves,xmoraes@example.net,Sul,2,176.58,aprovado,2026-01-02 04:01:52.918098
+54,14,Dom Cunha,pereiramaria-luiza@example.org,Norte,2,6094.38,aprovado,2026-01-03 21:01:52.918098
+55,7,Davi Camargo,aragaohadassa@example.com,Norte,2,213.1,aprovado,2026-01-06 05:01:52.918098
+56,14,Cauê Costela,luana95@example.com,Centro-Oeste,5,15235.95,aprovado,2026-02-05 17:01:52.918098
+57,6,Caroline Souza,leandro33@example.net,Nordeste,4,3184.84,aprovado,2026-01-11 09:01:52.918098
+58,24,Vitória Oliveira,alvesvalentim@example.net,Sudeste,2,69.26,aprovado,2025-10-09 19:01:52.918098
+59,2,Davi Luiz Lima,agatha76@example.org,Sudeste,4,27005.56,aprovado,2025-12-10 11:01:52.918098
+60,8,Emilly Fernandes,davifreitas@example.net,Sudeste,2,712.14,aprovado,2026-02-16 10:01:52.918098
+61,3,Vitor Gabriel Mendonça,franciscorodrigues@example.com,Nordeste,3,6725.49,aprovado,2025-11-27 10:01:52.918098
+62,18,Ayla da Cruz,olivia68@example.org,Sudeste,3,233.82,pendente,2026-03-08 14:01:52.918098
+63,9,Leandro Fogaça,rferreira@example.com,Nordeste,1,102.54,aprovado,2025-12-16 11:01:52.918098
+64,11,Laís Fogaça,pedro12@example.net,Sudeste,4,8809.68,aprovado,2025-11-27 19:01:52.918098
+65,19,Davi Lucca Novais,caioramos@example.net,Sul,2,150.72,aprovado,2025-12-16 22:01:52.918098
+66,18,Dra. Eloá Câmara,mayapacheco@example.net,Norte,2,155.88,aprovado,2026-03-20 01:01:52.918098
+67,20,Anna Liz Mendes,alexandre56@example.net,Norte,3,574.68,aprovado,2026-03-05 23:01:52.918098
+68,17,Maria Eduarda Freitas,henrique26@example.com,Nordeste,3,1439.37,aprovado,2026-01-13 10:01:52.918098
+69,18,Maria Liz Duarte,rmendonca@example.net,Nordeste,2,155.88,aprovado,2025-10-18 10:01:52.918098
+70,6,Luara Teixeira,qribeiro@example.net,Nordeste,5,3981.05,aprovado,2025-12-24 05:01:52.918098
+71,10,Isabella Freitas,heitorbarros@example.net,Nordeste,3,2851.8,aprovado,2025-11-09 03:01:52.918098
+72,15,Sabrina Rios,nina66@example.org,Sul,4,11230.2,aprovado,2026-02-11 06:01:52.918098
+73,24,Luiz Henrique Cirino,maysamachado@example.com,Nordeste,2,69.26,aprovado,2026-01-24 06:01:52.918098
+74,20,Thales Gonçalves,ramosgabriela@example.com,Sudeste,3,574.68,aprovado,2026-02-05 01:01:52.918098
+75,7,Calebe Fernandes,pereirarafael@example.com,Sul,2,213.1,aprovado,2026-02-03 07:01:52.918098
+76,25,André Costa,gomesagatha@example.net,Sudeste,1,79.66,aprovado,2025-10-27 04:01:52.918098
+77,23,Dr. Pedro Lucas Sales,jose97@example.org,Nordeste,4,353.16,aprovado,2026-02-03 18:01:52.918098
+78,1,Srta. Maria Júlia Teixeira,pcassiano@example.com,Nordeste,1,5862.91,aprovado,2026-02-09 17:01:52.918098
+79,23,Bianca Fogaça,da-motadiego@example.com,Norte,5,441.45,aprovado,2025-11-15 15:01:52.918098
+80,4,Clara Sales,rebecaduarte@example.org,Sul,4,4766.44,aprovado,2025-12-09 01:01:52.918098
+81,18,Bento da Cunha,tda-cunha@example.org,Nordeste,5,389.7,aprovado,2025-12-14 03:01:52.918098
+82,17,Vitória Almeida,araujovinicius@example.org,Norte,4,1919.16,cancelado,2025-11-17 08:01:52.918098
+83,24,Samuel Aragão,joaopastor@example.net,Sudeste,4,138.52,aprovado,2026-02-02 02:01:52.918098
+84,25,Liz da Mata,hcirino@example.org,Sudeste,5,398.3,aprovado,2026-02-04 14:01:52.918098
+85,23,Maria Liz Pinto,limaaylla@example.org,Norte,3,264.87,aprovado,2026-01-11 12:01:52.918098
+86,3,José Miguel Borges,henrique90@example.net,Sudeste,2,4483.66,aprovado,2025-12-29 00:01:52.918098
+87,7,Arthur Gabriel Borges,oliveirarebeca@example.net,Sul,1,106.55,aprovado,2026-01-12 05:01:52.918098
+88,2,Francisco da Cunha,novaisbella@example.net,Centro-Oeste,2,13502.78,cancelado,2025-12-28 04:01:52.918098
+89,1,Ágatha Camargo,ialmeida@example.org,Sudeste,5,29314.55,aprovado,2026-04-05 11:01:52.918098
+90,13,Hellena Almeida,ana-liz61@example.net,Norte,4,12988.6,aprovado,2025-11-18 03:01:52.918098
+91,16,Mariah Souza,eloa61@example.net,Sudeste,2,321.0,aprovado,2025-12-03 22:01:52.918098
+92,22,Srta. Helena Vargas,zda-mata@example.org,Centro-Oeste,4,229.88,aprovado,2025-12-08 18:01:52.918098
+93,18,Bryan Moura,vborges@example.org,Nordeste,1,77.94,cancelado,2025-11-06 04:01:52.918098
+94,3,Emilly Oliveira,ceciliamarques@example.com,Sudeste,4,8967.32,aprovado,2025-12-09 17:01:52.918098
+95,13,Isaac Camargo,ana-julia36@example.org,Nordeste,3,9741.45,aprovado,2026-01-13 12:01:52.918098
+96,13,Dra. Agatha Costela,antonella77@example.net,Nordeste,3,9741.45,aprovado,2025-12-20 14:01:52.918098
+97,16,Maria Sophia Leão,julia54@example.com,Sudeste,1,160.5,aprovado,2026-03-24 11:01:52.918098
+98,3,Isabelly da Costa,xmontenegro@example.com,Nordeste,1,2241.83,aprovado,2026-02-02 16:01:52.918098
+99,20,Ana Luiza Rocha,miguelda-cruz@example.net,Sudeste,2,383.12,aprovado,2025-12-06 01:01:52.918098
+100,7,Zoe Brito,pimentamatheus@example.org,Sul,4,426.2,aprovado,2026-01-02 17:01:52.918098
+101,24,Heitor Sá,eloanovais@example.com,Sudeste,1,34.63,aprovado,2026-02-24 13:01:52.918098
+102,1,Luiz Otávio da Costa,ana-juliamarques@example.net,Centro-Oeste,3,17588.73,aprovado,2025-12-31 10:01:52.918098
+103,7,Stella da Rocha,marina66@example.net,Sudeste,1,106.55,aprovado,2025-10-28 15:01:52.918098
+104,25,Yasmin Novais,rochamarcela@example.com,Nordeste,3,238.98,cancelado,2025-11-04 19:01:52.918098
+105,19,Sr. Henry Araújo,mcasa-grande@example.net,Sudeste,1,75.36,aprovado,2025-12-18 01:01:52.918098
+106,17,Ravi Lucca Araújo,arthur-miguelgoncalves@example.org,Sudeste,3,1439.37,aprovado,2025-12-20 07:01:52.918098
+107,12,Giovanna Fernandes,macedojuan@example.com,Nordeste,4,7297.12,aprovado,2025-12-16 17:01:52.918098
+108,21,Sr. Caleb Barbosa,brayannascimento@example.org,Sul,3,234.99,aprovado,2025-11-20 07:01:52.918098
+109,24,Marcos Vinicius da Conceição,cunhazoe@example.com,Sudeste,5,173.15,aprovado,2026-02-03 20:01:52.918098
+110,15,Heloísa da Cunha,lorenzoferreira@example.com,Nordeste,2,5615.1,aprovado,2025-11-12 03:01:52.918098
+111,11,Ayla Farias,enrico48@example.com,Sul,1,2202.42,aprovado,2026-01-13 17:01:52.918098
+112,12,Ana Sophia Nogueira,evelyn43@example.com,Norte,3,5472.84,aprovado,2025-11-05 00:01:52.918098
+113,18,Daniela Rocha,oalmeida@example.org,Sudeste,1,77.94,aprovado,2026-02-17 20:01:52.918098
+114,14,Luiz Otávio Viana,ksampaio@example.org,Sul,4,12188.76,aprovado,2026-02-04 00:01:52.918098
+115,23,Laura das Neves,oda-cunha@example.org,Sudeste,4,353.16,aprovado,2026-04-02 20:01:52.918098
+116,13,Joaquim Brito,rafaelcasa-grande@example.org,Sul,2,6494.3,aprovado,2025-11-09 11:01:52.918098
+117,17,Valentim Araújo,novaisanna-liz@example.com,Sudeste,3,1439.37,aprovado,2025-11-17 12:01:52.918098
+118,15,João Felipe Barbosa,gabriel08@example.org,Nordeste,3,8422.65,aprovado,2026-02-06 19:01:52.918098
+119,11,Mateus Novais,joaquim54@example.net,Sudeste,1,2202.42,aprovado,2025-10-12 17:01:52.918098
+120,24,Bryan Azevedo,kamilly03@example.net,Sul,4,138.52,aprovado,2025-11-07 06:01:52.918098
+121,4,Maria Julia Mendes,mariah91@example.com,Sudeste,2,2383.22,aprovado,2026-01-04 17:01:52.918098
+122,23,Sr. Diego Lopes,fariassophia@example.net,Sul,5,441.45,aprovado,2026-03-26 21:01:52.918098
+123,23,Dr. Diego Almeida,gomesheloisa@example.net,Norte,2,176.58,aprovado,2025-12-02 19:01:52.918098
+124,19,Caroline Aragão,manuela23@example.net,Sudeste,3,226.08,aprovado,2025-12-15 12:01:52.918098
+125,2,Diogo Aparecida,riosleo@example.com,Nordeste,3,20254.17,pendente,2025-12-05 19:01:52.918098
+126,13,Emilly Silva,leandro63@example.org,Sudeste,4,12988.6,aprovado,2025-10-27 01:01:52.918098
+127,5,João Monteiro,lais48@example.org,Sudeste,5,40309.3,pendente,2026-03-16 15:01:52.918098
+128,25,Gabriel Melo,cauafernandes@example.com,Nordeste,4,318.64,aprovado,2025-10-30 15:01:52.918098
+129,13,Lucas Gabriel Machado,vicente24@example.com,Centro-Oeste,4,12988.6,cancelado,2026-01-20 04:01:52.918098
+130,10,Sra. Lavínia Ribeiro,rezendebenjamin@example.net,Sudeste,5,4753.0,aprovado,2025-10-31 23:01:52.918098
+131,25,Srta. Stephany Souza,macedocecilia@example.com,Sudeste,2,159.32,aprovado,2026-01-29 01:01:52.918098
+132,8,Sophia da Rocha,fernandamelo@example.net,Sudeste,2,712.14,aprovado,2026-02-25 22:01:52.918098
+133,23,Dr. Nathan Câmara,marceloalbuquerque@example.org,Sudeste,5,441.45,aprovado,2026-03-29 15:01:52.918098
+134,10,Eduardo Casa Grande,barbosavitor-gabriel@example.net,Nordeste,4,3802.4,aprovado,2026-02-06 14:01:52.918098
+135,21,Rafaela Gomes,camargoerick@example.com,Sudeste,5,391.65,aprovado,2026-02-15 09:01:52.918098
+136,8,José Pedro Cassiano,oliveiradavi-lucca@example.org,Sudeste,2,712.14,cancelado,2026-03-01 20:01:52.918098
+137,10,Maria Helena Brito,casa-grandethales@example.org,Sudeste,5,4753.0,aprovado,2025-11-12 13:01:52.918098
+138,15,Ravi Porto,hadassaviana@example.net,Sul,3,8422.65,aprovado,2026-01-27 06:01:52.918098
+139,15,Sara Almeida,yagoporto@example.net,Sudeste,1,2807.55,aprovado,2025-12-16 23:01:52.918098
+140,9,Dante Vargas,pedrosouza@example.com,Sul,1,102.54,aprovado,2025-10-16 04:01:52.918098
+141,1,Kevin Camargo,cardosocatarina@example.org,Sul,3,17588.73,aprovado,2026-02-21 07:01:52.918098
+142,15,Luiz Otávio Porto,camposjoaquim@example.org,Sul,3,8422.65,aprovado,2025-11-08 09:01:52.918098
+143,16,Zoe Câmara,cardosoluiz-gustavo@example.org,Sudeste,1,160.5,aprovado,2025-12-23 12:01:52.918098
+144,4,Gabrielly Cunha,igorpastor@example.com,Sudeste,2,2383.22,aprovado,2025-10-11 07:01:52.918098
+145,13,Caleb da Costa,borgesvinicius@example.org,Sudeste,5,16235.75,aprovado,2026-03-15 12:01:52.918098
+146,4,Sra. Pietra Nascimento,kevindas-neves@example.com,Norte,4,4766.44,cancelado,2026-04-06 01:01:52.918098
+147,15,Maria Julia Freitas,ivargas@example.com,Sul,4,11230.2,aprovado,2025-11-25 11:01:52.918098
+148,16,Guilherme da Mata,jose-miguelabreu@example.net,Sul,4,642.0,aprovado,2026-02-13 14:01:52.918098
+149,10,Lavínia da Cunha,juliamacedo@example.com,Sudeste,4,3802.4,cancelado,2025-12-03 19:01:52.918098
+150,21,Ísis Andrade,hcamara@example.net,Sul,5,391.65,aprovado,2026-02-25 13:01:52.918098
+151,18,Sra. Agatha Siqueira,xsilveira@example.com,Centro-Oeste,4,311.76,aprovado,2026-03-08 08:01:52.918098
+152,21,Vitor Gabriel Ramos,ravi43@example.com,Nordeste,2,156.66,aprovado,2026-01-22 06:01:52.918098
+153,14,Julia Santos,qaragao@example.org,Sul,4,12188.76,pendente,2026-02-03 08:01:52.918098
+154,13,Dra. Maria Eduarda Pacheco,heloisa98@example.net,Norte,2,6494.3,pendente,2025-11-26 23:01:52.918098
+155,3,Murilo Sousa,isissouza@example.net,Centro-Oeste,3,6725.49,aprovado,2025-12-21 12:01:52.918098
+156,17,Matheus Lima,ana-ceciliagarcia@example.net,Sudeste,3,1439.37,cancelado,2026-01-23 23:01:52.918098
+157,19,Julia Pacheco,gferreira@example.net,Sudeste,5,376.8,pendente,2025-12-02 18:01:52.918098
+158,16,Stella Fogaça,alexia34@example.net,Sul,3,481.5,aprovado,2025-11-18 10:01:52.918098
+159,11,Ester Fogaça,domborges@example.org,Sudeste,2,4404.84,pendente,2026-02-04 04:01:52.918098
+160,25,Mateus Mendonça,theo75@example.org,Norte,4,318.64,aprovado,2025-12-06 00:01:52.918098
+161,13,Jade Barbosa,alanasantos@example.org,Sul,4,12988.6,pendente,2025-10-22 18:01:52.918098
+162,2,Dra. Letícia Abreu,martinsemanuelly@example.net,Norte,2,13502.78,aprovado,2025-11-06 12:01:52.918098
+163,15,Sarah Pastor,mendesmathias@example.org,Nordeste,1,2807.55,aprovado,2025-12-11 22:01:52.918098
+164,14,Eduarda da Rocha,luiz-felipeferreira@example.net,Sul,2,6094.38,aprovado,2026-01-29 12:01:52.918098
+165,13,Bárbara Costela,leticia61@example.org,Sudeste,1,3247.15,cancelado,2025-10-16 05:01:52.918098
+166,11,Sr. Benicio Santos,camargoeloah@example.org,Sudeste,4,8809.68,cancelado,2026-03-28 03:01:52.918098
+167,21,Paulo Machado,paulo95@example.org,Centro-Oeste,3,234.99,pendente,2026-03-14 09:01:52.918098
+168,25,Luísa Andrade,helena50@example.org,Norte,1,79.66,aprovado,2025-10-11 13:01:52.918098
+169,2,João Miguel Cunha,luiz-miguelguerra@example.net,Sudeste,3,20254.17,aprovado,2026-01-21 11:01:52.918098
+170,5,Júlia Cunha,calebealves@example.net,Nordeste,2,16123.72,aprovado,2025-11-13 01:01:52.918098
+171,6,Henry Gabriel da Mota,earaujo@example.com,Nordeste,2,1592.42,aprovado,2025-12-30 03:01:52.918098
+172,16,Dr. Josué Machado,borgesgustavo-henrique@example.com,Sudeste,5,802.5,aprovado,2025-12-09 02:01:52.918098
+173,9,Fernanda Rios,teixeiramiguel@example.org,Nordeste,1,102.54,cancelado,2025-12-08 13:01:52.918098
+174,6,Sara Sá,arthur-miguelribeiro@example.org,Sudeste,1,796.21,aprovado,2026-01-08 04:01:52.918098
+175,14,Zoe Pires,yuricavalcanti@example.org,Centro-Oeste,3,9141.57,aprovado,2026-01-19 16:01:52.918098
+176,16,Joaquim Farias,lizmarques@example.org,Sul,1,160.5,aprovado,2025-11-11 11:01:52.918098
+177,23,Sr. Felipe Moura,cunhasofia@example.net,Sudeste,3,264.87,aprovado,2025-10-20 10:01:52.918098
+178,19,Diogo Castro,luiz-fernando45@example.com,Nordeste,1,75.36,cancelado,2025-11-30 13:01:52.918098
+179,8,Maria Liz Aparecida,sabrina37@example.net,Sudeste,5,1780.35,cancelado,2026-02-09 02:01:52.918098
+180,9,João Gabriel Machado,cavalcanteisaac@example.com,Sudeste,2,205.08,aprovado,2025-10-28 02:01:52.918098
+181,15,Laura Marques,raulteixeira@example.com,Norte,1,2807.55,aprovado,2026-03-04 20:01:52.918098
+182,11,Arthur Miguel Vieira,uabreu@example.net,Norte,4,8809.68,aprovado,2026-03-04 05:01:52.918098
+183,12,Breno Casa Grande,enzo71@example.org,Sudeste,5,9121.4,aprovado,2026-01-27 17:01:52.918098
+184,16,Aurora Fonseca,da-cruzbruna@example.com,Sul,3,481.5,aprovado,2026-01-10 19:01:52.918098
+185,3,Samuel Cardoso,gnascimento@example.com,Nordeste,2,4483.66,aprovado,2026-02-08 01:01:52.918098
+186,13,Gabriela Moreira,isaac41@example.net,Sudeste,5,16235.75,aprovado,2025-12-26 22:01:52.918098
+187,4,Rodrigo Pastor,joao-miguelaragao@example.org,Sul,4,4766.44,aprovado,2025-10-16 14:01:52.918098
+188,21,Kevin da Costa,malbuquerque@example.com,Sudeste,3,234.99,aprovado,2026-02-06 07:01:52.918098
+189,18,Ayla Leão,fernando64@example.com,Sudeste,3,233.82,cancelado,2026-02-09 02:01:52.918098
+190,15,Alana da Rocha,marquesalicia@example.net,Sudeste,3,8422.65,aprovado,2026-03-08 18:01:52.918098
+191,2,Thomas Fernandes,bella77@example.net,Sudeste,3,20254.17,pendente,2026-03-08 19:01:52.918098
+192,18,Kaique Correia,da-pazjoao@example.com,Centro-Oeste,2,155.88,aprovado,2026-01-02 01:01:52.918098
+193,23,Maria Sophia Gonçalves,esthergarcia@example.com,Nordeste,5,441.45,aprovado,2026-02-26 09:01:52.918098
+194,16,Davi Luiz Rezende,pimentamelissa@example.com,Nordeste,5,802.5,aprovado,2026-01-25 21:01:52.918098
+195,7,Srta. Evelyn Sampaio,amontenegro@example.org,Sudeste,4,426.2,aprovado,2026-02-05 11:01:52.918098
+196,22,Sra. Daniela Nunes,calebecasa-grande@example.org,Sudeste,3,172.41,aprovado,2025-10-23 11:01:52.918098
+197,9,Samuel Cardoso,ana-clara83@example.net,Nordeste,2,205.08,pendente,2025-12-11 20:01:52.918098
+198,21,Sr. Danilo Fernandes,camilapinto@example.net,Sudeste,5,391.65,pendente,2026-03-25 12:01:52.918098
+199,5,Dra. Luísa Ferreira,raul16@example.net,Sul,5,40309.3,aprovado,2025-11-16 16:01:52.918098
+200,8,Liz da Cruz,kandrade@example.com,Sudeste,3,1068.21,aprovado,2025-11-05 22:01:52.918098
+201,5,Lavínia Pinto,dmoraes@example.com,Nordeste,2,16123.72,aprovado,2026-02-21 19:01:52.918098
+202,1,Dr. Enrico da Paz,erios@example.net,Sudeste,2,11725.82,aprovado,2026-02-05 04:01:52.918098
+203,6,Srta. Bárbara Machado,montenegroagatha@example.org,Sudeste,3,2388.63,aprovado,2025-12-20 06:01:52.918098
+204,3,Anna Liz Pimenta,maria-luisacassiano@example.org,Sul,4,8967.32,aprovado,2026-01-04 06:01:52.918098
+205,15,Maria Flor Lima,agatha85@example.com,Nordeste,5,14037.75,aprovado,2025-10-31 21:01:52.918098
+206,22,Dra. Julia Ferreira,britolaura@example.org,Sudeste,5,287.35,aprovado,2025-10-24 22:01:52.918098
+207,16,José Pedro Alves,caldeiraleandro@example.com,Nordeste,4,642.0,aprovado,2026-03-10 07:01:52.918098
+208,15,Sr. Fernando Sá,pintodiogo@example.org,Sudeste,1,2807.55,cancelado,2026-01-14 03:01:52.918098
+209,5,Maria Helena Pacheco,amoreira@example.com,Nordeste,3,24185.58,aprovado,2025-11-08 05:01:52.918098
+210,13,Yan Barros,fonsecamirella@example.net,Sul,5,16235.75,aprovado,2025-12-11 06:01:52.918098
+211,4,Sr. Gustavo Henrique Farias,nogueiraana-laura@example.net,Nordeste,1,1191.61,cancelado,2025-10-22 05:01:52.918098
+212,7,Enzo Gabriel Moura,melissacampos@example.com,Sudeste,4,426.2,aprovado,2026-02-07 09:01:52.918098
+213,15,Dom Pinto,britonathan@example.org,Sudeste,4,11230.2,aprovado,2026-03-13 12:01:52.918098
+214,22,Lara da Costa,cecilialeao@example.org,Norte,3,172.41,aprovado,2026-02-26 01:01:52.918098
+215,3,Gael Souza,qpeixoto@example.com,Sudeste,1,2241.83,cancelado,2026-03-14 09:01:52.918098
+216,24,Dra. Raquel Cassiano,vitor88@example.net,Sul,3,103.89,cancelado,2025-11-15 21:01:52.918098
+217,18,Maria Fernanda Cardoso,paulo24@example.com,Sudeste,5,389.7,aprovado,2026-03-06 09:01:52.918098
+218,22,Ana Cavalcante,scirino@example.net,Sul,4,229.88,cancelado,2026-03-24 13:01:52.918098
+219,12,André da Luz,machadojoao-pedro@example.com,Nordeste,1,1824.28,aprovado,2026-02-11 18:01:52.918098
+220,8,Caleb Casa Grande,asilveira@example.net,Sudeste,1,356.07,aprovado,2025-11-15 11:01:52.918098
+221,9,Matteo Rios,maria-helenada-rosa@example.com,Centro-Oeste,5,512.7,aprovado,2025-12-18 05:01:52.918098
+222,20,Ana Lívia Fernandes,camilavieira@example.net,Sul,5,957.8,aprovado,2025-11-15 22:01:52.918098
+223,22,Gabrielly Sá,ealmeida@example.org,Nordeste,3,172.41,aprovado,2026-01-27 00:01:52.918098
+224,11,Gabrielly Castro,maria-alicecirino@example.com,Nordeste,3,6607.26,aprovado,2026-03-01 04:01:52.918098
+225,3,Srta. Gabrielly Camargo,fbarbosa@example.org,Nordeste,2,4483.66,aprovado,2026-03-30 20:01:52.918098
+226,7,Lucca da Conceição,camposisadora@example.net,Sudeste,4,426.2,aprovado,2026-01-09 17:01:52.918098
+227,24,Alícia Sampaio,isabelly64@example.net,Sudeste,3,103.89,aprovado,2025-11-12 03:01:52.918098
+228,2,Mathias Costa,brenonovais@example.net,Nordeste,2,13502.78,aprovado,2025-10-30 21:01:52.918098
+229,9,Maria Júlia Viana,barbosamariana@example.org,Sudeste,4,410.16,aprovado,2025-12-03 03:01:52.918098
+230,9,Luiz Gustavo Almeida,cda-mata@example.org,Sudeste,2,205.08,aprovado,2026-03-08 11:01:52.918098
+231,10,Thomas das Neves,xmoura@example.org,Sudeste,5,4753.0,aprovado,2025-10-18 13:01:52.918098
+232,13,Maria Vitória Abreu,ncavalcante@example.com,Centro-Oeste,5,16235.75,aprovado,2026-02-13 13:01:52.918098
+233,25,Dr. Kaique da Rocha,npereira@example.org,Sudeste,2,159.32,aprovado,2026-01-22 12:01:52.918098
+234,16,Maria Laura Pinto,ncastro@example.org,Nordeste,4,642.0,aprovado,2025-12-30 05:01:52.918098
+235,17,Sr. Juan da Costa,lorena06@example.net,Sudeste,5,2398.95,cancelado,2026-01-06 20:01:52.918098
+236,24,João Ferreira,usilva@example.com,Norte,1,34.63,aprovado,2025-12-10 20:01:52.918098
+237,19,Gael Casa Grande,britoana@example.net,Sudeste,4,301.44,aprovado,2025-10-25 09:01:52.918098
+238,13,Esther Peixoto,dborges@example.com,Sul,1,3247.15,pendente,2026-02-22 03:01:52.918098
+239,23,Bruna Sousa,rfonseca@example.net,Sudeste,3,264.87,aprovado,2026-03-10 15:01:52.918098
+240,13,Otto Camargo,ana-clara48@example.org,Sudeste,5,16235.75,aprovado,2026-01-16 23:01:52.918098
+241,11,Antony Oliveira,xfogaca@example.net,Sul,2,4404.84,aprovado,2025-10-26 19:01:52.918098
+242,7,Gustavo Henrique Cirino,macedoemanuella@example.org,Sudeste,3,319.65,aprovado,2025-10-23 18:01:52.918098
+243,5,Dra. Mariah Correia,enzo87@example.org,Nordeste,3,24185.58,aprovado,2025-11-03 18:01:52.918098
+244,21,Ana Laura Monteiro,luiza19@example.org,Sul,1,78.33,aprovado,2025-10-28 07:01:52.918098
+245,19,Fernando da Luz,vianagabriel@example.com,Sul,5,376.8,aprovado,2025-11-13 02:01:52.918098
+246,20,Alícia Fernandes,ana-juliateixeira@example.org,Sudeste,3,574.68,cancelado,2025-10-28 12:01:52.918098
+247,3,Dra. Raquel Vargas,da-pazvinicius@example.com,Sul,4,8967.32,aprovado,2026-01-19 14:01:52.918098
+248,12,Ian Correia,rodriguesmilena@example.net,Sudeste,5,9121.4,aprovado,2025-12-09 08:01:52.918098
+249,12,Sr. Oliver da Rosa,marcelo07@example.com,Sul,3,5472.84,aprovado,2026-03-14 03:01:52.918098
+250,13,Kaique Andrade,renan99@example.com,Norte,4,12988.6,aprovado,2026-03-27 08:01:52.918098
+251,19,Joaquim Cavalcante,luigi91@example.org,Sudeste,2,150.72,aprovado,2025-12-06 06:01:52.918098
+252,2,Raul da Conceição,arthur-gabrielnunes@example.net,Sudeste,4,27005.56,aprovado,2026-01-09 00:01:52.918098
+253,21,Lucas da Costa,luiza40@example.org,Sul,2,156.66,aprovado,2025-12-15 08:01:52.918098
+254,20,Liam Leão,joao08@example.com,Sudeste,2,383.12,aprovado,2026-01-24 10:01:52.918098
+255,11,Jade da Cunha,bella11@example.net,Sudeste,5,11012.1,aprovado,2025-10-27 02:01:52.918098
+256,11,Lucas Gabriel Jesus,fogacamaria-alice@example.org,Sudeste,1,2202.42,aprovado,2025-12-29 13:01:52.918098
+257,22,Theo Dias,maria-alicebarbosa@example.org,Sul,5,287.35,cancelado,2026-01-11 20:01:52.918098
+258,5,Breno Cardoso,ana-carolina75@example.net,Nordeste,3,24185.58,aprovado,2025-10-21 00:01:52.918098
+259,5,Davi Miguel Cavalcante,vnascimento@example.org,Sul,5,40309.3,aprovado,2026-03-16 13:01:52.918098
+260,21,Sr. João Lucas Correia,luana64@example.org,Nordeste,3,234.99,cancelado,2025-10-17 00:01:52.918098
+261,24,Anna Liz Pereira,juanramos@example.com,Sul,5,173.15,aprovado,2025-10-17 09:01:52.918098
+262,1,Isabela Andrade,da-rochaheitor@example.org,Centro-Oeste,3,17588.73,aprovado,2026-02-11 12:01:52.918098
+263,16,Maria Luiza Farias,ramosvalentim@example.com,Sudeste,2,321.0,aprovado,2026-03-02 18:01:52.918098
+264,4,Ravy Silva,luiza72@example.net,Nordeste,5,5958.05,aprovado,2025-11-23 21:01:52.918098
+265,25,Sr. Pedro Miguel Farias,alicia71@example.com,Sudeste,5,398.3,aprovado,2025-12-31 18:01:52.918098
+266,23,Dra. Lívia Lopes,olivianogueira@example.org,Sudeste,5,441.45,cancelado,2026-02-22 23:01:52.918098
+267,14,Heloisa Vasconcelos,manuella54@example.org,Sul,3,9141.57,aprovado,2026-02-05 08:01:52.918098
+268,25,Laís Lopes,davi-lucasjesus@example.com,Centro-Oeste,4,318.64,aprovado,2026-02-04 13:01:52.918098
+269,16,João Lucas Marques,matheusnogueira@example.org,Sul,2,321.0,aprovado,2025-11-11 08:01:52.918098
+270,10,Dr. Joaquim Gonçalves,rael29@example.com,Nordeste,4,3802.4,aprovado,2025-12-20 17:01:52.918098
+271,20,Oliver Lima,ana-julia46@example.com,Sul,2,383.12,cancelado,2026-03-24 02:01:52.918098
+272,12,Luísa Borges,da-motamaria@example.com,Sudeste,5,9121.4,pendente,2025-11-25 19:01:52.918098
+273,25,Isaque da Cruz,sousaisadora@example.org,Nordeste,2,159.32,aprovado,2025-11-26 18:01:52.918098
+274,3,Lavínia da Costa,enzo-gabriel07@example.com,Sudeste,2,4483.66,cancelado,2026-01-07 22:01:52.918098
+275,13,Diego Ferreira,emanuellydas-neves@example.org,Sudeste,5,16235.75,aprovado,2025-12-29 20:01:52.918098
+276,1,Dra. Melina Lima,amandamoura@example.com,Nordeste,3,17588.73,pendente,2025-10-22 12:01:52.918098
+277,5,Giovanna Silveira,qda-conceicao@example.com,Nordeste,1,8061.86,aprovado,2025-12-07 00:01:52.918098
+278,25,Augusto Melo,davi-miguelnovais@example.com,Sudeste,4,318.64,aprovado,2026-04-05 20:01:52.918098
+279,7,Rafaela Vargas,mirellada-cruz@example.net,Sudeste,2,213.1,aprovado,2025-11-02 06:01:52.918098
+280,25,Juan Pimenta,camila14@example.com,Sudeste,3,238.98,aprovado,2026-03-06 21:01:52.918098
+281,21,Cauê Camargo,mcaldeira@example.org,Sul,5,391.65,aprovado,2026-03-09 07:01:52.918098
+282,1,Luigi das Neves,zsilva@example.com,Sudeste,5,29314.55,aprovado,2026-03-01 13:01:52.918098
+283,20,Ana Júlia Monteiro,nviana@example.com,Nordeste,3,574.68,aprovado,2025-12-21 17:01:52.918098
+284,3,Breno Câmara,guilhermemoreira@example.com,Sul,5,11209.15,pendente,2026-03-20 06:01:52.918098
+285,17,Bárbara da Mota,da-rochadante@example.org,Sul,5,2398.95,aprovado,2025-12-07 21:01:52.918098
+286,12,Noah Teixeira,vianaemanuelly@example.org,Sudeste,3,5472.84,aprovado,2026-01-05 20:01:52.918098
+287,24,Melina da Paz,gomesalexandre@example.net,Sudeste,1,34.63,aprovado,2026-01-11 18:01:52.918098
+288,18,Marcos Vinicius Ramos,isisnovais@example.org,Sul,3,233.82,cancelado,2026-02-21 01:01:52.918098
+289,23,Dr. Augusto Vargas,arthur-miguelaparecida@example.org,Nordeste,4,353.16,aprovado,2026-03-03 20:01:52.918098
+290,15,Sr. Isaque Sá,rodriguesmanuella@example.org,Norte,1,2807.55,aprovado,2026-03-26 16:01:52.918098
+291,11,Maria Helena Albuquerque,stephany81@example.net,Sudeste,3,6607.26,aprovado,2025-11-18 07:01:52.918098
+292,25,Pietro Fogaça,abrito@example.org,Sudeste,2,159.32,aprovado,2026-03-25 02:01:52.918098
+293,4,Fernanda Rodrigues,sophia47@example.net,Sudeste,3,3574.83,aprovado,2025-12-24 23:01:52.918098
+294,13,Brenda Pereira,helena43@example.org,Sul,3,9741.45,pendente,2025-11-30 00:01:52.918098
+295,17,Ágatha da Rosa,araujoana-vitoria@example.com,Sudeste,3,1439.37,cancelado,2025-12-19 20:01:52.918098
+296,6,Antônio Pimenta,isis57@example.org,Sudeste,5,3981.05,aprovado,2026-03-11 20:01:52.918098
+297,10,Benjamim Garcia,caioabreu@example.net,Nordeste,3,2851.8,aprovado,2025-12-18 17:01:52.918098
+298,12,Marcos Vinicius Garcia,gabrielasantos@example.net,Centro-Oeste,4,7297.12,aprovado,2026-01-06 03:01:52.918098
+299,9,João Lucas Moreira,benjamim62@example.com,Sudeste,1,102.54,aprovado,2025-10-25 10:01:52.918098
+300,24,Enzo das Neves,luaracaldeira@example.net,Nordeste,2,69.26,pendente,2026-03-01 03:01:52.918098
+301,15,Bernardo da Rocha,montenegroluiz-gustavo@example.com,Sudeste,1,2807.55,aprovado,2026-02-05 02:01:52.918098
+302,13,Joana Rios,da-cruzsofia@example.org,Sudeste,5,16235.75,aprovado,2026-02-26 01:01:52.918098
+303,12,Matheus Brito,heloisacarvalho@example.org,Sudeste,3,5472.84,aprovado,2026-03-18 04:01:52.918098
+304,12,Dr. Ryan Aragão,qcarvalho@example.com,Centro-Oeste,4,7297.12,aprovado,2026-01-25 15:01:52.918098
+305,1,Lara da Costa,tdias@example.org,Sudeste,2,11725.82,aprovado,2025-12-28 05:01:52.918098
+306,25,Clarice Montenegro,pabreu@example.net,Sudeste,3,238.98,aprovado,2026-02-11 03:01:52.918098
+307,16,Joaquim Nascimento,valentinacavalcanti@example.org,Sudeste,2,321.0,aprovado,2026-03-19 08:01:52.918098
+308,23,Guilherme Cavalcanti,kamilly71@example.org,Nordeste,4,353.16,pendente,2025-10-14 12:01:52.918098
+309,23,Anna Liz Moraes,ana-vitoriamonteiro@example.net,Norte,1,88.29,aprovado,2026-01-22 13:01:52.918098
+310,23,Luiz Henrique Duarte,znovais@example.net,Sudeste,2,176.58,aprovado,2025-11-27 15:01:52.918098
+311,7,Srta. Manuela Nunes,slopes@example.net,Sudeste,2,213.1,aprovado,2025-12-01 22:01:52.918098
+312,19,Ana Cecília Melo,wnunes@example.net,Sul,3,226.08,aprovado,2025-11-16 18:01:52.918098
+313,3,Erick Machado,hsousa@example.net,Sudeste,1,2241.83,aprovado,2025-12-05 06:01:52.918098
+314,14,Nina Rezende,daniela53@example.net,Sudeste,5,15235.95,aprovado,2026-01-15 02:01:52.918098
+315,15,Ravi Lucca Santos,fogacamaria-luisa@example.net,Sul,5,14037.75,aprovado,2025-11-16 02:01:52.918098
+316,25,Bianca Melo,esthernunes@example.com,Sul,2,159.32,aprovado,2026-03-23 19:01:52.918098
+317,10,Dra. Isabela Cirino,yrodrigues@example.org,Centro-Oeste,2,1901.2,aprovado,2026-02-08 11:01:52.918098
+318,17,Gabriela Camargo,tbarros@example.org,Sul,3,1439.37,cancelado,2026-02-01 16:01:52.918098
+319,18,Luigi Silva,xmontenegro@example.net,Sul,3,233.82,aprovado,2026-01-19 03:01:52.918098
+320,17,Benicio Siqueira,bento19@example.org,Sudeste,2,959.58,aprovado,2025-11-09 18:01:52.918098
+321,20,Sr. Kevin Albuquerque,eduardacaldeira@example.org,Nordeste,5,957.8,aprovado,2025-11-13 21:01:52.918098
+322,1,Rodrigo Freitas,eribeiro@example.org,Sudeste,1,5862.91,aprovado,2025-10-24 04:01:52.918098
+323,7,Bernardo Pinto,castroisabella@example.net,Sul,5,532.75,aprovado,2025-10-25 22:01:52.918098
+324,21,Maria Luiza Barbosa,bento85@example.org,Sudeste,5,391.65,aprovado,2026-01-19 07:01:52.918098
+325,22,Renan Sampaio,monteirovitoria@example.net,Sudeste,4,229.88,aprovado,2026-03-19 00:01:52.918098
+326,15,Ester Farias,bellapires@example.com,Sul,4,11230.2,aprovado,2026-02-13 12:01:52.918098
+327,11,Marcos Vinicius Cavalcanti,anthony-gabrielalmeida@example.com,Sudeste,3,6607.26,aprovado,2026-01-08 10:01:52.918098
+328,12,Sara Ferreira,cunhaisabella@example.net,Sul,5,9121.4,aprovado,2026-01-15 15:01:52.918098
+329,9,Henry Gabriel Moraes,alana24@example.org,Sudeste,4,410.16,aprovado,2026-03-13 21:01:52.918098
+330,13,Melissa Alves,samuel96@example.net,Centro-Oeste,5,16235.75,aprovado,2026-02-25 12:01:52.918098
+331,24,Luiz Henrique Teixeira,castrothales@example.net,Centro-Oeste,3,103.89,aprovado,2026-02-25 07:01:52.918098
+332,15,Heloísa Sousa,ravynascimento@example.net,Sudeste,4,11230.2,cancelado,2025-11-30 22:01:52.918098
+333,13,Matteo Garcia,julia50@example.com,Sul,5,16235.75,aprovado,2026-02-04 16:01:52.918098
+334,2,Amanda Monteiro,camaralara@example.net,Nordeste,1,6751.39,aprovado,2025-11-05 02:01:52.918098
+335,10,Dra. Pietra Câmara,vieirastephany@example.org,Sudeste,5,4753.0,aprovado,2026-03-10 09:01:52.918098
+336,9,Rafael das Neves,sophia59@example.com,Sudeste,3,307.62,aprovado,2026-01-03 21:01:52.918098
+337,19,Enzo Montenegro,montenegrogabrielly@example.net,Sudeste,5,376.8,aprovado,2025-11-16 13:01:52.918098
+338,17,Maria Júlia Cardoso,esther05@example.com,Nordeste,4,1919.16,aprovado,2026-01-25 03:01:52.918098
+339,4,Pietro Sales,sampaiomaria-luiza@example.net,Nordeste,2,2383.22,pendente,2025-12-27 11:01:52.918098
+340,11,Carolina Ferreira,iviana@example.org,Sul,5,11012.1,pendente,2026-03-01 16:01:52.918098
+341,13,João Lucas Rios,melissafogaca@example.org,Nordeste,5,16235.75,aprovado,2026-03-28 18:01:52.918098
+342,16,Lucca Nogueira,teixeiramathias@example.net,Sudeste,5,802.5,aprovado,2025-11-02 06:01:52.918098
+343,20,Ana Cecília Vasconcelos,glopes@example.com,Nordeste,3,574.68,aprovado,2025-10-30 23:01:52.918098
+344,19,Mateus Silva,anogueira@example.com,Sul,3,226.08,aprovado,2025-11-27 05:01:52.918098
+345,19,Rafaela Nogueira,miguel23@example.org,Sudeste,3,226.08,aprovado,2026-04-02 11:01:52.918098
+346,4,Igor Caldeira,rodriguesana-carolina@example.net,Sudeste,4,4766.44,aprovado,2025-10-12 02:01:52.918098
+347,16,Cauê Rodrigues,silveiraana-laura@example.org,Sudeste,3,481.5,pendente,2025-11-09 04:01:52.918098
+348,2,Ana Julia Viana,malmeida@example.org,Nordeste,5,33756.95,aprovado,2025-11-23 02:01:52.918098
+349,25,Beatriz Mendes,igor29@example.net,Sudeste,4,318.64,aprovado,2025-10-14 15:01:52.918098
+350,23,Olivia Ramos,acorreia@example.org,Sudeste,1,88.29,aprovado,2025-12-15 12:01:52.918098
+351,14,Sra. Sophia Nunes,dsantos@example.com,Norte,2,6094.38,aprovado,2025-11-01 07:01:52.918098
+352,24,Joana Pinto,gabriela04@example.org,Sul,1,34.63,aprovado,2025-11-25 16:01:52.918098
+353,22,Sra. Ana Sophia Fernandes,luiz-otavioda-mata@example.com,Sul,4,229.88,aprovado,2026-01-16 17:01:52.918098
+354,18,Mariana Almeida,omonteiro@example.org,Nordeste,3,233.82,aprovado,2025-10-14 23:01:52.918098
+355,23,Beatriz da Paz,jmendonca@example.com,Sudeste,3,264.87,aprovado,2026-02-16 15:01:52.918098
+356,10,Marina Moraes,almeidaluiz-miguel@example.com,Nordeste,2,1901.2,pendente,2026-01-20 13:01:52.918098
+357,23,Arthur Gabriel Novais,maria-flor88@example.com,Centro-Oeste,4,353.16,aprovado,2026-01-07 05:01:52.918098
+358,24,Srta. Jade Pimenta,maiteduarte@example.org,Sul,3,103.89,aprovado,2025-11-11 01:01:52.918098
+359,13,Mariane Castro,pachecobenjamim@example.net,Sudeste,3,9741.45,pendente,2026-02-28 13:01:52.918098
+360,23,Léo Cirino,jadecunha@example.org,Sudeste,1,88.29,aprovado,2025-12-14 02:01:52.918098
+361,16,Letícia Vieira,hmontenegro@example.com,Centro-Oeste,2,321.0,aprovado,2025-11-20 14:01:52.918098
+362,23,Arthur Guerra,fvieira@example.com,Sul,3,264.87,aprovado,2025-10-30 23:01:52.918098
+363,8,Dom Siqueira,matteo68@example.org,Sul,1,356.07,aprovado,2025-11-22 15:01:52.918098
+364,2,Juliana Santos,umarques@example.net,Nordeste,1,6751.39,aprovado,2025-12-07 19:01:52.918098
+365,5,Lucas Barbosa,caldeiramaria-helena@example.net,Nordeste,1,8061.86,pendente,2026-02-25 09:01:52.918098
+366,16,Anna Liz Aparecida,araujodaniel@example.com,Sudeste,4,642.0,aprovado,2026-01-23 12:01:52.918098
+367,2,Apollo Peixoto,eloavasconcelos@example.net,Nordeste,1,6751.39,aprovado,2026-02-06 05:01:52.918098
+368,2,Dr. Diogo Andrade,aaparecida@example.net,Centro-Oeste,2,13502.78,aprovado,2026-02-20 21:01:52.918098
+369,13,Srta. Bruna Rodrigues,wporto@example.net,Sudeste,4,12988.6,aprovado,2026-01-22 21:01:52.918098
+370,19,Pedro Lucas Vieira,nicolas62@example.com,Sul,5,376.8,aprovado,2026-01-11 13:01:52.918098
+371,21,Paulo Câmara,kaique71@example.com,Sul,5,391.65,aprovado,2026-03-03 06:01:52.918098
+372,7,Alana Mendonça,ccampos@example.com,Sudeste,1,106.55,aprovado,2025-12-10 02:01:52.918098
+373,6,Oliver Teixeira,vicentealbuquerque@example.org,Nordeste,1,796.21,aprovado,2026-01-21 04:01:52.918098
+374,7,Raul Aragão,ana-beatriz79@example.com,Nordeste,2,213.1,aprovado,2025-10-25 10:01:52.918098
+375,17,Raquel da Costa,sfernandes@example.com,Sudeste,3,1439.37,aprovado,2025-10-17 19:01:52.918098
+376,5,Felipe Cunha,cgomes@example.net,Sudeste,4,32247.44,aprovado,2026-02-02 22:01:52.918098
+377,8,Ágatha Barros,anthonyaragao@example.net,Sul,4,1424.28,aprovado,2026-01-12 13:01:52.918098
+378,19,Maria Julia Siqueira,heitor45@example.org,Sudeste,1,75.36,aprovado,2026-01-04 00:01:52.918098
+379,22,Dra. Nina Viana,caua92@example.net,Nordeste,1,57.47,aprovado,2026-02-25 10:01:52.918098
+380,23,Laura Correia,moraesluna@example.net,Sudeste,3,264.87,aprovado,2025-10-25 13:01:52.918098
+381,8,Isabel Leão,maite99@example.com,Sul,2,712.14,pendente,2025-12-05 18:01:52.918098
+382,20,Dom Siqueira,jdias@example.net,Nordeste,3,574.68,aprovado,2025-11-17 07:01:52.918098
+383,22,Caleb Campos,jda-rosa@example.com,Norte,2,114.94,aprovado,2025-10-14 03:01:52.918098
+384,3,Isabella da Conceição,bella24@example.net,Sudeste,5,11209.15,aprovado,2025-10-08 11:01:52.918098
+385,19,Manuella Silveira,fernandesluna@example.org,Sudeste,1,75.36,aprovado,2025-11-17 06:01:52.918098
+386,18,Caroline Carvalho,luiz-otavio70@example.org,Sudeste,2,155.88,aprovado,2025-11-24 08:01:52.918098
+387,7,Amanda das Neves,pedro-miguel67@example.org,Nordeste,5,532.75,aprovado,2025-11-27 08:01:52.918098
+388,15,Lara da Conceição,ana-julia50@example.net,Sudeste,2,5615.1,aprovado,2025-12-11 04:01:52.918098
+389,15,Lara Moreira,camposcamila@example.com,Nordeste,3,8422.65,aprovado,2025-12-26 14:01:52.918098
+390,24,José Pacheco,macedoyuri@example.org,Sudeste,2,69.26,aprovado,2026-03-26 09:01:52.918098
+391,3,Isaac Campos,scavalcante@example.net,Sudeste,5,11209.15,pendente,2026-03-20 07:01:52.918098
+392,14,Matteo Barbosa,rael59@example.net,Sul,2,6094.38,aprovado,2025-10-23 23:01:52.918098
+393,14,Joana Oliveira,sarah50@example.com,Norte,3,9141.57,pendente,2025-12-30 08:01:52.918098
+394,13,Sr. Vitor Sousa,caio97@example.com,Sudeste,4,12988.6,aprovado,2025-10-19 05:01:52.918098
+395,12,Arthur Miguel Rocha,mariana57@example.com,Sul,1,1824.28,aprovado,2025-11-20 10:01:52.918098
+396,24,Ana Júlia Cassiano,ujesus@example.net,Sul,2,69.26,cancelado,2026-04-01 13:01:52.918098
+397,24,Caleb Azevedo,kamilly83@example.com,Sudeste,5,173.15,aprovado,2025-12-30 15:01:52.918098
+398,12,Sabrina Gomes,yuri51@example.com,Nordeste,2,3648.56,aprovado,2026-03-09 21:01:52.918098
+399,14,Augusto Novais,mendesrhavi@example.net,Sudeste,5,15235.95,aprovado,2026-04-02 15:01:52.918098
+400,4,Valentim Fonseca,da-cruzarthur-gabriel@example.net,Nordeste,5,5958.05,aprovado,2025-11-04 01:01:52.918098
+401,2,Marina Pinto,pjesus@example.org,Sudeste,2,13502.78,aprovado,2025-12-25 08:01:52.918098
+402,7,Igor da Mota,raulsilveira@example.org,Nordeste,1,106.55,aprovado,2026-01-22 15:01:52.918098
+403,24,Luna Rios,cda-luz@example.com,Nordeste,5,173.15,aprovado,2025-11-04 01:01:52.918098
+404,8,Maria Laura Vargas,salesmathias@example.net,Sudeste,3,1068.21,cancelado,2025-10-19 06:01:52.918098
+405,10,Clara Sousa,scorreia@example.net,Norte,3,2851.8,aprovado,2025-11-05 23:01:52.918098
+406,21,Dr. Anthony Cassiano,daraujo@example.org,Centro-Oeste,4,313.32,aprovado,2026-03-25 11:01:52.918098
+407,22,Dom Siqueira,otto33@example.net,Sudeste,4,229.88,aprovado,2026-01-15 00:01:52.918098
+408,5,Emanuella Azevedo,isouza@example.com,Sudeste,3,24185.58,aprovado,2025-11-20 07:01:52.918098
+409,8,Beatriz Vieira,alanada-mata@example.com,Norte,3,1068.21,cancelado,2026-03-01 08:01:52.918098
+410,18,Heitor Costa,maite24@example.net,Sudeste,4,311.76,pendente,2025-11-15 06:01:52.918098
+411,8,Srta. Anna Liz Ribeiro,salescatarina@example.com,Norte,3,1068.21,aprovado,2025-10-23 20:01:52.918098
+412,12,Nicolas Novaes,vitor04@example.org,Sudeste,1,1824.28,aprovado,2026-02-17 21:01:52.918098
+413,22,Pietra Carvalho,daniela45@example.com,Nordeste,5,287.35,aprovado,2026-03-19 16:01:52.918098
+414,19,Sr. Gael Henrique Pereira,manuela28@example.org,Sudeste,5,376.8,aprovado,2026-02-12 12:01:52.918098
+415,1,Vinícius Nascimento,gabriellygomes@example.net,Centro-Oeste,2,11725.82,pendente,2026-03-06 23:01:52.918098
+416,16,Eloah Azevedo,camila09@example.com,Sudeste,2,321.0,aprovado,2025-10-08 16:01:52.918098
+417,8,Heloisa Borges,campossophie@example.net,Sul,5,1780.35,aprovado,2026-01-24 10:01:52.918098
+418,21,Benício Guerra,cpimenta@example.org,Norte,3,234.99,aprovado,2026-01-04 06:01:52.918098
+419,15,Dra. Isabelly Cunha,piresluiz-otavio@example.net,Norte,1,2807.55,cancelado,2025-12-07 12:01:52.918098
+420,12,Leonardo Barros,martinsfelipe@example.org,Nordeste,3,5472.84,aprovado,2025-11-13 15:01:52.918098
+421,1,Maria Isis da Mota,npires@example.com,Nordeste,3,17588.73,aprovado,2025-11-08 04:01:52.918098
+422,10,Maitê Albuquerque,theomelo@example.org,Sul,2,1901.2,aprovado,2026-02-07 10:01:52.918098
+423,8,Dr. Yago Porto,monteirocarolina@example.net,Sudeste,4,1424.28,aprovado,2025-10-13 12:01:52.918098
+424,16,Natália Rodrigues,novaisgustavo-henrique@example.com,Sudeste,4,642.0,aprovado,2026-01-06 17:01:52.918098
+425,18,Srta. Luara Pacheco,yago33@example.org,Centro-Oeste,4,311.76,aprovado,2025-11-19 02:01:52.918098
+426,17,Isabelly Machado,alana24@example.org,Sudeste,1,479.79,cancelado,2026-03-18 01:01:52.918098
+427,1,Isabela Cirino,agatha38@example.org,Sudeste,4,23451.64,aprovado,2025-10-27 15:01:52.918098
+428,5,Ryan Andrade,dpastor@example.net,Sudeste,1,8061.86,aprovado,2025-12-11 11:01:52.918098
+429,21,Gabriela Sales,britomaria-julia@example.org,Sudeste,5,391.65,cancelado,2025-10-20 07:01:52.918098
+430,18,Anthony Gabriel Dias,sampaioana-liz@example.net,Nordeste,5,389.7,aprovado,2026-04-02 06:01:52.918098
+431,18,Eloah Cavalcanti,yda-luz@example.org,Sudeste,3,233.82,aprovado,2025-10-10 01:01:52.918098
+432,6,Sr. João Felipe Cavalcanti,fernanda54@example.com,Sudeste,1,796.21,cancelado,2025-11-23 18:01:52.918098
+433,20,Dr. João Guilherme Costa,giovanna59@example.com,Nordeste,5,957.8,aprovado,2026-01-06 14:01:52.918098
+434,3,Bruna Cirino,nlopes@example.com,Sudeste,3,6725.49,pendente,2025-12-10 04:01:52.918098
+435,23,Isabelly Brito,agathanascimento@example.org,Centro-Oeste,2,176.58,aprovado,2026-03-17 02:01:52.918098
+436,21,Alexandre das Neves,yfernandes@example.org,Sul,1,78.33,aprovado,2025-12-30 10:01:52.918098
+437,2,Matteo Leão,barbara84@example.com,Nordeste,1,6751.39,aprovado,2026-03-16 07:01:52.918098
+438,21,Dra. Isabela Novaes,leo23@example.org,Norte,3,234.99,aprovado,2026-03-13 06:01:52.918098
+439,8,Stella das Neves,zmontenegro@example.net,Sul,2,712.14,cancelado,2025-10-11 04:01:52.918098
+440,2,Oliver Vargas,zbarros@example.net,Sul,1,6751.39,aprovado,2026-01-25 05:01:52.918098
+441,2,Stella Sampaio,ana23@example.net,Centro-Oeste,2,13502.78,pendente,2026-01-16 22:01:52.918098
+442,19,Maria Sales,kborges@example.com,Sudeste,2,150.72,aprovado,2025-12-26 20:01:52.918098
+443,19,Jade Campos,nogueirazoe@example.net,Norte,2,150.72,aprovado,2025-12-28 01:01:52.918098
+444,11,João Oliveira,ygarcia@example.com,Nordeste,4,8809.68,aprovado,2026-03-02 00:01:52.918098
+445,17,Sra. Alexia Pastor,tcostela@example.net,Nordeste,3,1439.37,aprovado,2025-12-16 15:01:52.918098
+446,11,Luiza Rezende,scirino@example.net,Centro-Oeste,5,11012.1,aprovado,2025-11-05 10:01:52.918098
+447,11,Yasmin da Rosa,sabrinafernandes@example.com,Sudeste,1,2202.42,aprovado,2025-12-12 07:01:52.918098
+448,18,Sr. Levi Rezende,mirellamelo@example.org,Nordeste,4,311.76,aprovado,2025-10-14 04:01:52.918098
+449,3,Alexandre da Cruz,albuquerquelavinia@example.com,Sudeste,5,11209.15,aprovado,2026-02-02 00:01:52.918098
+450,9,Thiago Dias,biancaramos@example.org,Nordeste,2,205.08,aprovado,2025-10-26 18:01:52.918098
+451,11,Srta. Evelyn Rios,isisgoncalves@example.com,Sudeste,3,6607.26,aprovado,2026-04-05 13:01:52.918098
+452,25,Sr. Luiz Otávio Vargas,joao-lucas07@example.org,Sudeste,3,238.98,aprovado,2026-03-15 17:01:52.918098
+453,18,André Sampaio,heitor43@example.net,Sudeste,5,389.7,aprovado,2026-03-11 22:01:52.918098
+454,18,Davi Mendonça,kmendonca@example.org,Sudeste,1,77.94,aprovado,2026-01-13 10:01:52.918098
+455,14,Pedro Lucas Azevedo,duartemaria@example.net,Sul,4,12188.76,aprovado,2025-11-14 15:01:52.918098
+456,6,Mathias Moura,ivasconcelos@example.org,Sudeste,4,3184.84,aprovado,2026-01-28 13:01:52.918098
+457,5,Mirella Oliveira,esousa@example.org,Sudeste,1,8061.86,aprovado,2026-01-26 09:01:52.918098
+458,3,Mariane Andrade,teixeiramaya@example.org,Sul,3,6725.49,aprovado,2026-02-01 23:01:52.918098
+459,20,Luara Mendes,zpeixoto@example.net,Sudeste,5,957.8,aprovado,2026-03-10 18:01:52.918098
+460,13,Lucas Gabriel da Cruz,liam76@example.net,Sudeste,3,9741.45,cancelado,2025-12-30 12:01:52.918098
+461,14,Calebe Guerra,maria-florferreira@example.org,Centro-Oeste,5,15235.95,aprovado,2026-01-14 03:01:52.918098
+462,7,Maria Laura Silva,joaoalves@example.com,Sudeste,4,426.2,aprovado,2025-12-26 12:01:52.918098
+463,23,Luísa Melo,bruna70@example.net,Sudeste,4,353.16,pendente,2026-02-03 12:01:52.918098
+464,13,Dr. Joaquim Sales,uazevedo@example.org,Sul,3,9741.45,aprovado,2025-11-13 16:01:52.918098
+465,18,Carolina Moura,montenegrocaio@example.net,Centro-Oeste,2,155.88,aprovado,2025-11-17 22:01:52.918098
+466,15,Maria Julia Novais,leoribeiro@example.org,Sudeste,2,5615.1,aprovado,2026-01-22 00:01:52.918098
+467,14,Melina Barbosa,acamara@example.com,Sudeste,4,12188.76,aprovado,2026-01-19 15:01:52.918098
+468,5,Ana Júlia Moraes,lara94@example.com,Centro-Oeste,4,32247.44,aprovado,2026-03-19 08:01:52.918098
+469,16,Rodrigo Rodrigues,melissapastor@example.org,Sudeste,5,802.5,aprovado,2025-11-28 00:01:52.918098
+470,2,Sra. Elisa da Cruz,marceloborges@example.com,Sul,3,20254.17,aprovado,2025-11-20 03:01:52.918098
+471,3,Sarah Rios,pereirasabrina@example.net,Sudeste,1,2241.83,aprovado,2025-10-20 01:01:52.918098
+472,21,Maria Luísa da Mota,freitashenry@example.com,Sul,5,391.65,aprovado,2025-10-23 01:01:52.918098
+473,25,Eloá Leão,yuri62@example.net,Sudeste,3,238.98,pendente,2025-12-17 19:01:52.918098
+474,9,Bruna Borges,vitor00@example.org,Sul,2,205.08,aprovado,2025-11-25 05:01:52.918098
+475,19,Caio Moura,benjamimrezende@example.net,Nordeste,2,150.72,aprovado,2025-12-27 08:01:52.918098
+476,19,Sara Nogueira,julianada-costa@example.com,Sudeste,5,376.8,aprovado,2026-03-31 07:01:52.918098
+477,14,Sra. Mariana Gonçalves,brenda92@example.com,Sudeste,1,3047.19,aprovado,2026-03-01 11:01:52.918098
+478,15,Sra. Ana Liz Ferreira,diasjuan@example.com,Sudeste,2,5615.1,aprovado,2026-01-07 07:01:52.918098
+479,24,Stella Cardoso,joao-gabrielnogueira@example.com,Nordeste,4,138.52,aprovado,2026-01-20 21:01:52.918098
+480,4,Larissa Montenegro,benjamin71@example.net,Nordeste,1,1191.61,cancelado,2025-10-23 19:01:52.918098
+481,6,Luiz Fernando Moraes,rochaelisa@example.net,Sudeste,2,1592.42,aprovado,2025-11-16 17:01:52.918098
+482,14,Miguel Duarte,maria-sophia50@example.org,Sudeste,4,12188.76,aprovado,2025-12-24 02:01:52.918098
+483,21,Allana Pastor,joao57@example.com,Sudeste,4,313.32,aprovado,2025-10-31 16:01:52.918098
+484,14,Valentina Souza,vasconcelosleticia@example.org,Sudeste,4,12188.76,aprovado,2026-02-11 16:01:52.918098
+485,23,Sra. Amanda Martins,costelajulia@example.net,Sudeste,1,88.29,aprovado,2025-11-20 17:01:52.918098
+486,7,Enzo da Luz,jnascimento@example.com,Sul,4,426.2,aprovado,2025-10-17 07:01:52.918098
+487,21,Ana Luiza Nogueira,enzo-gabriel89@example.org,Sul,3,234.99,aprovado,2025-11-01 10:01:52.918098
+488,12,Sofia Sá,ymendonca@example.com,Nordeste,3,5472.84,cancelado,2025-10-30 17:01:52.918098
+489,23,Maria Cecília da Mota,qpacheco@example.com,Nordeste,3,264.87,cancelado,2025-11-06 20:01:52.918098
+490,11,Alice Brito,pintoarthur-miguel@example.com,Sudeste,1,2202.42,aprovado,2026-03-08 17:01:52.918098
+491,5,Leandro Peixoto,plopes@example.com,Sul,5,40309.3,aprovado,2025-11-05 18:01:52.918098
+492,14,Bella Mendonça,montenegroisadora@example.net,Norte,2,6094.38,aprovado,2025-11-20 00:01:52.918098
+493,6,João Vitor Aparecida,woliveira@example.com,Sudeste,5,3981.05,aprovado,2026-01-23 18:01:52.918098
+494,15,Caroline Silveira,dmelo@example.org,Sul,5,14037.75,aprovado,2026-01-05 22:01:52.918098
+495,7,Dante Barbosa,lnovais@example.com,Sul,4,426.2,pendente,2025-11-28 02:01:52.918098
+496,22,Helena Borges,ravi-luccada-mata@example.org,Sudeste,4,229.88,aprovado,2025-12-14 07:01:52.918098
+497,19,Emilly Cirino,brayanpeixoto@example.org,Sudeste,1,75.36,aprovado,2026-02-09 13:01:52.918098
+498,8,Calebe Vargas,fogacacaue@example.com,Nordeste,5,1780.35,aprovado,2025-12-10 04:01:52.918098
+499,25,Alana Melo,ana-juliaalmeida@example.org,Sudeste,4,318.64,aprovado,2026-03-09 04:01:52.918098
+500,25,Bento Castro,da-rosahenry-gabriel@example.com,Nordeste,5,398.3,cancelado,2026-01-03 05:01:52.918098

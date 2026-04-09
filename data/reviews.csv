@@ -1,0 +1,301 @@
+id,produto_id,cliente,nota,texto,sentimento,criado_em
+1,7,Antônio,3,Produto funcionando normalmente. Tempo de entrega foi o padrão.,neutro,2025-11-17 22:01:52.961936
+2,25,Ísis,1,"Decepcionante. A qualidade não é o que estava anunciado, parece falsificado.",negativo,2026-01-19 22:01:52.961936
+3,7,Lara,5,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2025-12-14 22:01:52.961936
+4,24,André,3,Cumpre o que promete. Qualidade mediana para o preço.,neutro,2026-02-11 22:01:52.961936
+5,14,Rafael,5,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2025-12-17 22:01:52.961936
+6,7,Maria Julia,3,Cumpre o que promete. Qualidade mediana para o preço.,neutro,2026-02-12 22:01:52.961936
+7,8,Isabela,5,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2025-11-19 22:01:52.961936
+8,1,Vitor Gabriel,5,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2025-11-10 22:01:52.961936
+9,25,Maya,1,"Decepcionante. A qualidade não é o que estava anunciado, parece falsificado.",negativo,2025-12-21 22:01:52.961936
+10,8,Maria Laura,1,"Decepcionante. A qualidade não é o que estava anunciado, parece falsificado.",negativo,2026-02-01 22:01:52.961936
+11,1,João Felipe,3,Cumpre o que promete. Qualidade mediana para o preço.,neutro,2025-12-26 22:01:52.961936
+12,23,João Pedro,5,"Muito satisfeito com a compra. O produto é exatamente como descrito, ótima qualidade.",positivo,2025-12-30 22:01:52.961936
+13,12,Enzo Gabriel,4,"Muito satisfeito com a compra. O produto é exatamente como descrito, ótima qualidade.",positivo,2025-11-25 22:01:52.961936
+14,5,José,5,"Muito satisfeito com a compra. O produto é exatamente como descrito, ótima qualidade.",positivo,2025-12-02 22:01:52.961936
+15,22,Manuella,4,"Muito satisfeito com a compra. O produto é exatamente como descrito, ótima qualidade.",positivo,2026-01-04 22:01:52.961936
+16,11,Caleb,3,Produto funcionando normalmente. Tempo de entrega foi o padrão.,neutro,2026-02-09 22:01:52.961936
+17,16,Yan,3,Produto funcionando normalmente. Tempo de entrega foi o padrão.,neutro,2026-01-27 22:01:52.961936
+18,3,Marcela,3,Compra razoável. Esperava um pouco mais mas não tenho do que reclamar.,neutro,2025-11-16 22:01:52.961936
+19,23,Caleb,5,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2026-03-24 22:01:52.961936
+20,14,Diego,5,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2026-03-05 22:01:52.961936
+21,13,Gabriel,4,"Muito satisfeito com a compra. O produto é exatamente como descrito, ótima qualidade.",positivo,2026-02-13 22:01:52.961936
+22,18,Maria Alice,2,"Decepcionante. A qualidade não é o que estava anunciado, parece falsificado.",negativo,2026-01-25 22:01:52.961936
+23,2,Maria Clara,3,Compra razoável. Esperava um pouco mais mas não tenho do que reclamar.,neutro,2026-03-15 22:01:52.961936
+24,16,Maitê,3,Cumpre o que promete. Qualidade mediana para o preço.,neutro,2026-03-23 22:01:52.961936
+25,12,Agatha,3,Cumpre o que promete. Qualidade mediana para o preço.,neutro,2025-12-17 22:01:52.961936
+26,5,Hellena,4,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2026-02-10 22:01:52.961936
+27,12,Sabrina,4,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2025-12-13 22:01:52.961936
+28,11,Joaquim,5,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2025-12-18 22:01:52.961936
+29,21,Levi,4,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2025-12-28 22:01:52.961936
+30,6,Lucas,3,"Produto ok, nada além do esperado. Entrega dentro do prazo.",neutro,2026-03-10 22:01:52.961936
+31,5,Antony,5,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2025-12-29 22:01:52.961936
+32,21,Catarina,3,Cumpre o que promete. Qualidade mediana para o preço.,neutro,2026-02-28 22:01:52.961936
+33,18,Maria Flor,4,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2026-02-22 22:01:52.961936
+34,7,Renan,4,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2025-12-21 22:01:52.961936
+35,3,Alexandre,3,Cumpre o que promete. Qualidade mediana para o preço.,neutro,2026-03-14 22:01:52.961936
+36,11,Lunna,4,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2025-12-28 22:01:52.961936
+37,22,Nicole,2,"Decepcionante. A qualidade não é o que estava anunciado, parece falsificado.",negativo,2026-02-01 22:01:52.961936
+38,6,Luan,3,Cumpre o que promete. Qualidade mediana para o preço.,neutro,2025-11-15 22:01:52.961936
+39,17,Aylla,3,Nada especial mas também não tem problemas. Faria a compra novamente.,neutro,2026-01-23 22:01:52.961936
+40,23,Maitê,1,Chegou com 10 dias de atraso e ainda veio embalagem amassada. Péssima experiência.,negativo,2026-02-12 22:01:52.961936
+41,15,Maria Laura,3,Cumpre o que promete. Qualidade mediana para o preço.,neutro,2025-12-26 22:01:52.961936
+42,13,Eduarda,3,Cumpre o que promete. Qualidade mediana para o preço.,neutro,2025-11-30 22:01:52.961936
+43,5,Otto,5,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2026-03-18 22:01:52.961936
+44,24,Davi Lucca,1,Chegou com 10 dias de atraso e ainda veio embalagem amassada. Péssima experiência.,negativo,2026-01-14 22:01:52.961936
+45,4,Anna Liz,5,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2025-11-17 22:01:52.961936
+46,1,Letícia,5,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2026-04-01 22:01:52.961936
+47,2,Yan,5,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2026-03-26 22:01:52.961936
+48,8,Melina,2,Produto veio errado. Serviço de trocas muito lento e sem retorno.,negativo,2026-01-22 22:01:52.961936
+49,24,Maria Vitória,3,Produto funcionando normalmente. Tempo de entrega foi o padrão.,neutro,2025-12-18 22:01:52.961936
+50,19,Elisa,4,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2026-03-15 22:01:52.961936
+51,7,Carlos Eduardo,4,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2025-11-19 22:01:52.961936
+52,22,Clarice,4,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2025-12-15 22:01:52.961936
+53,6,João Vitor,1,"Produto veio com defeito. Tive que acionar o suporte, demora muito para resolver.",negativo,2026-02-02 22:01:52.961936
+54,14,Marina,1,Não recomendo. O produto parou de funcionar após 2 semanas de uso.,negativo,2026-03-22 22:01:52.961936
+55,7,Nathan,3,Cumpre o que promete. Qualidade mediana para o preço.,neutro,2026-03-06 22:01:52.961936
+56,9,Gabriel,3,"Produto ok, nada além do esperado. Entrega dentro do prazo.",neutro,2026-02-23 22:01:52.961936
+57,14,Isadora,2,"Decepcionante. A qualidade não é o que estava anunciado, parece falsificado.",negativo,2025-12-31 22:01:52.961936
+58,23,Alana,3,Compra razoável. Esperava um pouco mais mas não tenho do que reclamar.,neutro,2026-03-06 22:01:52.961936
+59,6,Bruna,2,Não recomendo. O produto parou de funcionar após 2 semanas de uso.,negativo,2026-01-26 22:01:52.961936
+60,9,Stephany,4,"Muito satisfeito com a compra. O produto é exatamente como descrito, ótima qualidade.",positivo,2025-12-10 22:01:52.961936
+61,1,Catarina,5,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2026-02-22 22:01:52.961936
+62,13,Mathias,4,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2026-03-07 22:01:52.961936
+63,10,Dom,3,"Produto ok, nada além do esperado. Entrega dentro do prazo.",neutro,2026-03-25 22:01:52.961936
+64,9,Ayla,5,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2025-12-28 22:01:52.961936
+65,16,Nina,4,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2025-12-19 22:01:52.961936
+66,10,Thiago,5,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2026-01-26 22:01:52.961936
+67,25,Isabella,4,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2026-03-23 22:01:52.961936
+68,21,Theo,4,"Muito satisfeito com a compra. O produto é exatamente como descrito, ótima qualidade.",positivo,2026-03-19 22:01:52.961936
+69,6,Yuri,2,Chegou com 10 dias de atraso e ainda veio embalagem amassada. Péssima experiência.,negativo,2026-03-14 22:01:52.961936
+70,2,Laura,5,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2026-01-21 22:01:52.961936
+71,22,Erick,3,Nada especial mas também não tem problemas. Faria a compra novamente.,neutro,2026-02-02 22:01:52.961936
+72,4,Yago,5,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2025-11-17 22:01:52.961936
+73,19,Jade,3,Cumpre o que promete. Qualidade mediana para o preço.,neutro,2026-04-04 22:01:52.961936
+74,11,Davi Luiz,5,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2026-01-10 22:01:52.961936
+75,12,Juliana,3,Produto funcionando normalmente. Tempo de entrega foi o padrão.,neutro,2026-01-17 22:01:52.961936
+76,18,Maria Julia,4,"Muito satisfeito com a compra. O produto é exatamente como descrito, ótima qualidade.",positivo,2025-12-01 22:01:52.961936
+77,8,Ravi Lucca,1,Chegou com 10 dias de atraso e ainda veio embalagem amassada. Péssima experiência.,negativo,2026-03-13 22:01:52.961936
+78,16,Bianca,2,Chegou com 10 dias de atraso e ainda veio embalagem amassada. Péssima experiência.,negativo,2025-12-09 22:01:52.961936
+79,14,Hellena,4,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2026-03-02 22:01:52.961936
+80,12,Bruna,3,"Produto ok, nada além do esperado. Entrega dentro do prazo.",neutro,2025-11-11 22:01:52.961936
+81,2,Gabrielly,4,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2026-01-21 22:01:52.961936
+82,2,Luiz Miguel,2,Chegou com 10 dias de atraso e ainda veio embalagem amassada. Péssima experiência.,negativo,2026-01-14 22:01:52.961936
+83,12,Mateus,4,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2026-03-02 22:01:52.961936
+84,7,Nathan,3,"Produto ok, nada além do esperado. Entrega dentro do prazo.",neutro,2026-02-25 22:01:52.961936
+85,20,Ágatha,5,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2025-12-22 22:01:52.961936
+86,20,Maysa,4,"Muito satisfeito com a compra. O produto é exatamente como descrito, ótima qualidade.",positivo,2026-01-17 22:01:52.961936
+87,4,Rafaela,4,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2026-02-24 22:01:52.961936
+88,18,Erick,4,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2026-01-12 22:01:52.961936
+89,13,Ágatha,4,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2025-12-25 22:01:52.961936
+90,7,Ian,5,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2026-02-20 22:01:52.961936
+91,16,Brenda,2,Produto veio errado. Serviço de trocas muito lento e sem retorno.,negativo,2025-11-16 22:01:52.961936
+92,21,Vitor Hugo,4,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2026-03-05 22:01:52.961936
+93,9,Gustavo Henrique,4,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2026-02-14 22:01:52.961936
+94,2,Pedro,4,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2026-01-29 22:01:52.961936
+95,2,Luiz Felipe,4,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2025-12-13 22:01:52.961936
+96,1,Lorenzo,5,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2026-03-26 22:01:52.961936
+97,25,Valentina,5,"Muito satisfeito com a compra. O produto é exatamente como descrito, ótima qualidade.",positivo,2025-11-29 22:01:52.961936
+98,16,Anna Liz,5,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2026-01-05 22:01:52.961936
+99,25,Cecilia,2,Chegou com 10 dias de atraso e ainda veio embalagem amassada. Péssima experiência.,negativo,2025-12-12 22:01:52.961936
+100,16,Ana Cecília,4,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2025-11-29 22:01:52.961936
+101,5,Joaquim,2,"Produto veio com defeito. Tive que acionar o suporte, demora muito para resolver.",negativo,2026-03-14 22:01:52.961936
+102,16,Gabriel,5,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2025-11-22 22:01:52.961936
+103,21,Theodoro,3,Nada especial mas também não tem problemas. Faria a compra novamente.,neutro,2026-04-01 22:01:52.961936
+104,11,Laís,3,Compra razoável. Esperava um pouco mais mas não tenho do que reclamar.,neutro,2025-12-04 22:01:52.961936
+105,16,Ana Julia,3,Compra razoável. Esperava um pouco mais mas não tenho do que reclamar.,neutro,2025-11-12 22:01:52.961936
+106,10,Caleb,5,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2026-03-30 22:01:52.961936
+107,1,Pedro,4,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2026-03-22 22:01:52.961936
+108,9,Maria Luiza,4,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2026-03-11 22:01:52.961936
+109,16,Isadora,3,Compra razoável. Esperava um pouco mais mas não tenho do que reclamar.,neutro,2025-11-20 22:01:52.961936
+110,15,Maria Laura,1,"Decepcionante. A qualidade não é o que estava anunciado, parece falsificado.",negativo,2025-11-09 22:01:52.961936
+111,8,Marcos Vinicius,4,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2026-02-04 22:01:52.961936
+112,21,Thomas,5,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2026-03-29 22:01:52.961936
+113,19,Enzo Gabriel,3,Nada especial mas também não tem problemas. Faria a compra novamente.,neutro,2025-11-12 22:01:52.961936
+114,3,Maria Isis,4,"Muito satisfeito com a compra. O produto é exatamente como descrito, ótima qualidade.",positivo,2025-11-18 22:01:52.961936
+115,7,Maria Eduarda,4,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2026-03-22 22:01:52.961936
+116,9,Leandro,3,"Produto ok, nada além do esperado. Entrega dentro do prazo.",neutro,2025-11-22 22:01:52.961936
+117,12,Miguel,4,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2026-01-08 22:01:52.961936
+118,9,Ísis,5,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2026-03-31 22:01:52.961936
+119,13,Davi Miguel,4,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2025-11-22 22:01:52.961936
+120,9,Mariah,2,Não recomendo. O produto parou de funcionar após 2 semanas de uso.,negativo,2026-03-11 22:01:52.961936
+121,15,Natália,4,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2025-12-15 22:01:52.961936
+122,15,Maria Liz,3,Produto funcionando normalmente. Tempo de entrega foi o padrão.,neutro,2026-01-14 22:01:52.961936
+123,17,Pedro Miguel,3,Nada especial mas também não tem problemas. Faria a compra novamente.,neutro,2026-01-04 22:01:52.961936
+124,10,Marcos Vinicius,3,Cumpre o que promete. Qualidade mediana para o preço.,neutro,2025-12-30 22:01:52.961936
+125,16,Mariana,3,Compra razoável. Esperava um pouco mais mas não tenho do que reclamar.,neutro,2026-03-04 22:01:52.961936
+126,12,Eduardo,3,Nada especial mas também não tem problemas. Faria a compra novamente.,neutro,2025-12-26 22:01:52.961936
+127,6,Dante,1,"Decepcionante. A qualidade não é o que estava anunciado, parece falsificado.",negativo,2026-01-14 22:01:52.961936
+128,20,Lavínia,4,"Muito satisfeito com a compra. O produto é exatamente como descrito, ótima qualidade.",positivo,2026-02-28 22:01:52.961936
+129,5,Isaac,3,Cumpre o que promete. Qualidade mediana para o preço.,neutro,2026-01-07 22:01:52.961936
+130,1,Enzo Gabriel,4,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2025-12-12 22:01:52.961936
+131,11,Isabelly,4,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2026-01-06 22:01:52.961936
+132,16,Juan,3,"Produto ok, nada além do esperado. Entrega dentro do prazo.",neutro,2026-03-24 22:01:52.961936
+133,5,Melina,5,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2025-12-21 22:01:52.961936
+134,19,Laura,2,Produto veio errado. Serviço de trocas muito lento e sem retorno.,negativo,2025-12-30 22:01:52.961936
+135,11,Allana,3,Nada especial mas também não tem problemas. Faria a compra novamente.,neutro,2026-02-07 22:01:52.961936
+136,20,Breno,4,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2026-03-31 22:01:52.961936
+137,1,Matheus,4,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2026-01-08 22:01:52.961936
+138,7,Ágatha,1,"Produto veio com defeito. Tive que acionar o suporte, demora muito para resolver.",negativo,2025-11-16 22:01:52.961936
+139,2,Julia,5,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2025-12-16 22:01:52.961936
+140,22,Enrico,5,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2026-03-23 22:01:52.961936
+141,11,Maria Isis,4,"Muito satisfeito com a compra. O produto é exatamente como descrito, ótima qualidade.",positivo,2025-11-15 22:01:52.961936
+142,25,Paulo,2,Chegou com 10 dias de atraso e ainda veio embalagem amassada. Péssima experiência.,negativo,2026-01-19 22:01:52.961936
+143,15,Giovanna,5,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2025-11-16 22:01:52.961936
+144,7,Liam,5,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2025-12-17 22:01:52.961936
+145,14,Carlos Eduardo,5,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2026-03-12 22:01:52.961936
+146,17,Davi,5,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2025-12-05 22:01:52.961936
+147,15,Rafael,5,"Muito satisfeito com a compra. O produto é exatamente como descrito, ótima qualidade.",positivo,2025-12-01 22:01:52.961936
+148,22,Ana Lívia,5,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2026-01-01 22:01:52.961936
+149,11,Jade,5,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2026-01-28 22:01:52.961936
+150,7,Maria Alice,4,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2025-11-12 22:01:52.961936
+151,2,Laura,4,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2026-01-07 22:01:52.961936
+152,13,Yan,4,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2026-03-21 22:01:52.961936
+153,21,Bento,3,Produto funcionando normalmente. Tempo de entrega foi o padrão.,neutro,2025-11-19 22:01:52.961936
+154,18,Ágatha,2,Produto veio errado. Serviço de trocas muito lento e sem retorno.,negativo,2026-02-04 22:01:52.961936
+155,13,Lorenzo,5,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2025-11-28 22:01:52.961936
+156,24,Gael,1,"Produto veio com defeito. Tive que acionar o suporte, demora muito para resolver.",negativo,2025-12-12 22:01:52.961936
+157,19,Calebe,1,"Decepcionante. A qualidade não é o que estava anunciado, parece falsificado.",negativo,2026-02-15 22:01:52.961936
+158,23,José Pedro,4,"Muito satisfeito com a compra. O produto é exatamente como descrito, ótima qualidade.",positivo,2026-02-13 22:01:52.961936
+159,24,Pedro Miguel,5,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2026-03-19 22:01:52.961936
+160,14,Ester,5,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2026-01-12 22:01:52.961936
+161,6,Bella,4,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2025-11-23 22:01:52.961936
+162,21,Levi,5,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2026-02-27 22:01:52.961936
+163,23,Valentina,4,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2025-11-12 22:01:52.961936
+164,7,Isaque,5,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2026-01-07 22:01:52.961936
+165,5,Miguel,5,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2025-12-05 22:01:52.961936
+166,8,Gael Henrique,5,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2025-12-24 22:01:52.961936
+167,8,Vinícius,5,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2026-03-24 22:01:52.961936
+168,15,Marina,5,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2026-03-31 22:01:52.961936
+169,15,Bento,3,Compra razoável. Esperava um pouco mais mas não tenho do que reclamar.,neutro,2026-01-16 22:01:52.961936
+170,16,João,3,"Produto ok, nada além do esperado. Entrega dentro do prazo.",neutro,2026-02-06 22:01:52.961936
+171,18,Marcela,5,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2026-01-27 22:01:52.961936
+172,6,Eloah,4,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2025-12-13 22:01:52.961936
+173,13,Cauê,2,Não recomendo. O produto parou de funcionar após 2 semanas de uso.,negativo,2025-11-24 22:01:52.961936
+174,24,Manuela,3,Nada especial mas também não tem problemas. Faria a compra novamente.,neutro,2026-02-24 22:01:52.961936
+175,5,Esther,5,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2025-11-22 22:01:52.961936
+176,23,Rodrigo,4,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2026-03-22 22:01:52.961936
+177,21,Mateus,4,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2026-02-14 22:01:52.961936
+178,16,Maria Liz,5,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2025-12-25 22:01:52.961936
+179,24,Anthony Gabriel,1,"Decepcionante. A qualidade não é o que estava anunciado, parece falsificado.",negativo,2025-12-31 22:01:52.961936
+180,23,Ian,4,"Muito satisfeito com a compra. O produto é exatamente como descrito, ótima qualidade.",positivo,2025-11-15 22:01:52.961936
+181,22,Manuella,5,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2026-01-23 22:01:52.961936
+182,12,Rael,4,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2026-02-10 22:01:52.961936
+183,23,Caroline,3,Cumpre o que promete. Qualidade mediana para o preço.,neutro,2026-01-27 22:01:52.961936
+184,21,Yuri,4,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2025-12-05 22:01:52.961936
+185,4,Evelyn,3,Nada especial mas também não tem problemas. Faria a compra novamente.,neutro,2026-04-03 22:01:52.961936
+186,10,Ravi,5,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2025-12-18 22:01:52.961936
+187,19,Marcos Vinicius,2,Chegou com 10 dias de atraso e ainda veio embalagem amassada. Péssima experiência.,negativo,2026-02-09 22:01:52.961936
+188,6,Larissa,5,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2026-03-10 22:01:52.961936
+189,6,Matteo,5,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2026-01-23 22:01:52.961936
+190,4,Isabelly,3,Produto funcionando normalmente. Tempo de entrega foi o padrão.,neutro,2026-03-20 22:01:52.961936
+191,15,Gael Henrique,2,Chegou com 10 dias de atraso e ainda veio embalagem amassada. Péssima experiência.,negativo,2026-01-29 22:01:52.961936
+192,5,Joana,3,Compra razoável. Esperava um pouco mais mas não tenho do que reclamar.,neutro,2026-02-16 22:01:52.961936
+193,16,Nina,4,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2025-12-23 22:01:52.961936
+194,22,Elisa,4,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2025-11-29 22:01:52.961936
+195,13,Sophie,5,"Muito satisfeito com a compra. O produto é exatamente como descrito, ótima qualidade.",positivo,2025-12-27 22:01:52.961936
+196,14,Mathias,4,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2026-02-08 22:01:52.961936
+197,18,Gael,5,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2025-11-27 22:01:52.961936
+198,21,Luara,3,Nada especial mas também não tem problemas. Faria a compra novamente.,neutro,2026-02-18 22:01:52.961936
+199,3,Júlia,4,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2025-11-13 22:01:52.961936
+200,19,Liz,2,"Produto veio com defeito. Tive que acionar o suporte, demora muito para resolver.",negativo,2026-02-08 22:01:52.961936
+201,3,Maria Luísa,5,"Muito satisfeito com a compra. O produto é exatamente como descrito, ótima qualidade.",positivo,2026-01-11 22:01:52.961936
+202,16,Alana,5,"Muito satisfeito com a compra. O produto é exatamente como descrito, ótima qualidade.",positivo,2026-03-06 22:01:52.961936
+203,12,Vinícius,4,"Muito satisfeito com a compra. O produto é exatamente como descrito, ótima qualidade.",positivo,2026-02-15 22:01:52.961936
+204,25,Brenda,5,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2026-01-19 22:01:52.961936
+205,5,João Gabriel,4,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2026-02-13 22:01:52.961936
+206,12,Cauã,5,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2026-01-15 22:01:52.961936
+207,3,Heloisa,4,"Muito satisfeito com a compra. O produto é exatamente como descrito, ótima qualidade.",positivo,2026-01-10 22:01:52.961936
+208,13,Daniel,2,"Produto veio com defeito. Tive que acionar o suporte, demora muito para resolver.",negativo,2026-04-04 22:01:52.961936
+209,12,Oliver,4,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2026-02-24 22:01:52.961936
+210,23,Alice,3,"Produto ok, nada além do esperado. Entrega dentro do prazo.",neutro,2026-03-03 22:01:52.961936
+211,22,João Guilherme,5,"Muito satisfeito com a compra. O produto é exatamente como descrito, ótima qualidade.",positivo,2025-12-17 22:01:52.961936
+212,12,Ravi,4,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2026-02-13 22:01:52.961936
+213,5,Renan,4,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2025-11-21 22:01:52.961936
+214,14,Maria Eduarda,4,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2026-02-07 22:01:52.961936
+215,21,Aurora,2,"Decepcionante. A qualidade não é o que estava anunciado, parece falsificado.",negativo,2026-03-10 22:01:52.961936
+216,7,Otávio,5,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2026-03-20 22:01:52.961936
+217,14,Liam,5,"Muito satisfeito com a compra. O produto é exatamente como descrito, ótima qualidade.",positivo,2025-11-23 22:01:52.961936
+218,6,Thales,5,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2026-01-08 22:01:52.961936
+219,23,Daniel,4,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2025-12-23 22:01:52.961936
+220,15,Bernardo,4,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2026-03-31 22:01:52.961936
+221,13,Oliver,4,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2026-03-27 22:01:52.961936
+222,19,Ana Beatriz,2,Produto veio errado. Serviço de trocas muito lento e sem retorno.,negativo,2026-03-24 22:01:52.961936
+223,7,Yuri,1,"Produto veio com defeito. Tive que acionar o suporte, demora muito para resolver.",negativo,2026-03-24 22:01:52.961936
+224,20,Isaac,5,"Muito satisfeito com a compra. O produto é exatamente como descrito, ótima qualidade.",positivo,2026-03-05 22:01:52.961936
+225,19,Evelyn,4,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2026-04-03 22:01:52.961936
+226,15,Hadassa,4,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2026-01-26 22:01:52.961936
+227,7,Milena,3,Cumpre o que promete. Qualidade mediana para o preço.,neutro,2025-12-19 22:01:52.961936
+228,18,Helena,4,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2026-03-07 22:01:52.961936
+229,11,Nicolas,4,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2026-02-13 22:01:52.961936
+230,23,Ana Julia,4,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2025-12-22 22:01:52.961936
+231,13,Ana Clara,5,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2025-12-03 22:01:52.961936
+232,5,João Guilherme,4,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2026-03-08 22:01:52.961936
+233,23,Miguel,3,Cumpre o que promete. Qualidade mediana para o preço.,neutro,2026-03-13 22:01:52.961936
+234,7,Gustavo,4,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2026-02-05 22:01:52.961936
+235,23,Murilo,2,Chegou com 10 dias de atraso e ainda veio embalagem amassada. Péssima experiência.,negativo,2025-12-08 22:01:52.961936
+236,7,Ísis,4,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2026-01-21 22:01:52.961936
+237,2,Kamilly,3,Compra razoável. Esperava um pouco mais mas não tenho do que reclamar.,neutro,2025-12-17 22:01:52.961936
+238,7,Arthur Miguel,4,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2026-03-01 22:01:52.961936
+239,19,Joaquim,3,Compra razoável. Esperava um pouco mais mas não tenho do que reclamar.,neutro,2026-01-04 22:01:52.961936
+240,25,Enzo,2,"Produto veio com defeito. Tive que acionar o suporte, demora muito para resolver.",negativo,2025-12-31 22:01:52.961936
+241,12,Luiza,5,"Muito satisfeito com a compra. O produto é exatamente como descrito, ótima qualidade.",positivo,2025-12-10 22:01:52.961936
+242,6,Benício,3,Produto funcionando normalmente. Tempo de entrega foi o padrão.,neutro,2025-12-19 22:01:52.961936
+243,10,Heitor,1,"Produto veio com defeito. Tive que acionar o suporte, demora muito para resolver.",negativo,2026-03-03 22:01:52.961936
+244,2,Luan,3,Cumpre o que promete. Qualidade mediana para o preço.,neutro,2026-03-10 22:01:52.961936
+245,1,Yago,2,Produto veio errado. Serviço de trocas muito lento e sem retorno.,negativo,2025-12-14 22:01:52.961936
+246,24,Maitê,3,Compra razoável. Esperava um pouco mais mas não tenho do que reclamar.,neutro,2026-03-29 22:01:52.961936
+247,5,Gabriela,1,Não recomendo. O produto parou de funcionar após 2 semanas de uso.,negativo,2025-12-02 22:01:52.961936
+248,6,Josué,2,"Produto veio com defeito. Tive que acionar o suporte, demora muito para resolver.",negativo,2026-03-20 22:01:52.961936
+249,2,Arthur Gabriel,3,"Produto ok, nada além do esperado. Entrega dentro do prazo.",neutro,2025-11-22 22:01:52.961936
+250,15,Gabriel,3,Nada especial mas também não tem problemas. Faria a compra novamente.,neutro,2026-02-07 22:01:52.961936
+251,21,Juan,1,Não recomendo. O produto parou de funcionar após 2 semanas de uso.,negativo,2026-02-01 22:01:52.961936
+252,1,Sarah,5,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2025-11-14 22:01:52.961936
+253,20,Samuel,4,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2025-12-06 22:01:52.961936
+254,3,Melissa,1,Não recomendo. O produto parou de funcionar após 2 semanas de uso.,negativo,2026-01-13 22:01:52.961936
+255,4,Anna Liz,5,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2025-11-27 22:01:52.961936
+256,10,Gabrielly,5,"Muito satisfeito com a compra. O produto é exatamente como descrito, ótima qualidade.",positivo,2026-02-04 22:01:52.961936
+257,18,Bernardo,5,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2025-11-29 22:01:52.961936
+258,1,Enzo Gabriel,5,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2026-03-10 22:01:52.961936
+259,21,Vicente,4,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2026-01-18 22:01:52.961936
+260,20,Cauê,5,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2026-01-02 22:01:52.961936
+261,24,João Miguel,3,Produto funcionando normalmente. Tempo de entrega foi o padrão.,neutro,2026-01-11 22:01:52.961936
+262,14,Gael Henrique,3,Nada especial mas também não tem problemas. Faria a compra novamente.,neutro,2025-12-05 22:01:52.961936
+263,3,Olívia,3,Produto funcionando normalmente. Tempo de entrega foi o padrão.,neutro,2026-03-07 22:01:52.961936
+264,3,Lívia,3,Cumpre o que promete. Qualidade mediana para o preço.,neutro,2026-04-05 22:01:52.961936
+265,18,Maria Luísa,5,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2025-11-23 22:01:52.961936
+266,24,Lunna,3,"Produto ok, nada além do esperado. Entrega dentro do prazo.",neutro,2026-02-22 22:01:52.961936
+267,19,Isadora,5,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2026-01-30 22:01:52.961936
+268,23,Augusto,4,"Muito satisfeito com a compra. O produto é exatamente como descrito, ótima qualidade.",positivo,2026-02-09 22:01:52.961936
+269,15,Maria Sophia,3,Cumpre o que promete. Qualidade mediana para o preço.,neutro,2026-01-09 22:01:52.961936
+270,17,Mirella,3,"Produto ok, nada além do esperado. Entrega dentro do prazo.",neutro,2026-03-05 22:01:52.961936
+271,14,Guilherme,2,Produto veio errado. Serviço de trocas muito lento e sem retorno.,negativo,2025-11-27 22:01:52.961936
+272,18,Yasmin,1,Produto veio errado. Serviço de trocas muito lento e sem retorno.,negativo,2026-03-24 22:01:52.961936
+273,2,Rodrigo,2,Produto veio errado. Serviço de trocas muito lento e sem retorno.,negativo,2026-02-19 22:01:52.961936
+274,23,Júlia,4,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2025-12-27 22:01:52.961936
+275,8,Maria Liz,3,Compra razoável. Esperava um pouco mais mas não tenho do que reclamar.,neutro,2025-11-27 22:01:52.961936
+276,7,Maria Sophia,4,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2025-12-25 22:01:52.961936
+277,12,Ryan,2,"Decepcionante. A qualidade não é o que estava anunciado, parece falsificado.",negativo,2026-03-01 22:01:52.961936
+278,5,Ana Vitória,3,Nada especial mas também não tem problemas. Faria a compra novamente.,neutro,2026-01-19 22:01:52.961936
+279,19,Anna Liz,5,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2026-02-09 22:01:52.961936
+280,11,Eloah,5,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2026-03-03 22:01:52.961936
+281,11,Antônio,3,Cumpre o que promete. Qualidade mediana para o preço.,neutro,2025-11-28 22:01:52.961936
+282,13,Liz,3,Compra razoável. Esperava um pouco mais mas não tenho do que reclamar.,neutro,2026-03-07 22:01:52.961936
+283,19,João Gabriel,5,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2025-11-10 22:01:52.961936
+284,8,Eduarda,3,Nada especial mas também não tem problemas. Faria a compra novamente.,neutro,2026-01-22 22:01:52.961936
+285,25,Theo,3,Nada especial mas também não tem problemas. Faria a compra novamente.,neutro,2026-03-09 22:01:52.961936
+286,7,Manuella,4,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2026-02-13 22:01:52.961936
+287,25,Eduarda,3,Cumpre o que promete. Qualidade mediana para o preço.,neutro,2026-01-22 22:01:52.961936
+288,1,Marcela,4,"Compra perfeita. Chegou antes do prazo, funciona muito bem. Com certeza comprarei novamente.",positivo,2026-02-12 22:01:52.961936
+289,2,Alexandre,5,"Muito satisfeito com a compra. O produto é exatamente como descrito, ótima qualidade.",positivo,2026-03-10 22:01:52.961936
+290,3,Laís,1,Produto veio errado. Serviço de trocas muito lento e sem retorno.,negativo,2025-12-27 22:01:52.961936
+291,15,Alexandre,5,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2025-12-29 22:01:52.961936
+292,21,Isabella,5,Fantástico! Vale cada centavo. Atendimento da loja também foi excelente.,positivo,2026-03-23 22:01:52.961936
+293,9,Cauã,3,Cumpre o que promete. Qualidade mediana para o preço.,neutro,2025-12-13 22:01:52.961936
+294,21,Aylla,2,Produto veio errado. Serviço de trocas muito lento e sem retorno.,negativo,2025-11-17 22:01:52.961936
+295,7,Bruna,3,Cumpre o que promete. Qualidade mediana para o preço.,neutro,2026-01-20 22:01:52.961936
+296,20,Luana,4,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2026-02-20 22:01:52.961936
+297,20,Stephany,5,Produto excelente! Superou todas as minhas expectativas. Entrega rápida e embalagem impecável.,positivo,2025-12-17 22:01:52.961936
+298,14,Giovanna,4,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2025-11-07 22:01:52.961936
+299,3,Ana Cecília,5,Amei o produto! Qualidade incrível pelo preço. Já recomendei para vários amigos.,positivo,2026-03-26 22:01:52.961936
+300,3,Benício,1,Produto veio errado. Serviço de trocas muito lento e sem retorno.,negativo,2026-01-18 22:01:52.961936

@@ -1,0 +1,26 @@
+id,nome,categoria,preco,estoque
+1,iPhone 15,Eletrônicos,5862.91,12
+2,Samsung Galaxy S24,Eletrônicos,6751.39,125
+3,AirPods Pro,Eletrônicos,2241.83,377
+4,iPad Air,Eletrônicos,1191.61,379
+5,Kindle,Eletrônicos,8061.86,44
+6,Panela de Pressão,Casa e Jardim,796.21,16
+7,Aspirador Robô,Casa e Jardim,106.55,111
+8,Liquidificador,Casa e Jardim,356.07,308
+9,Cafeteira,Casa e Jardim,102.54,101
+10,Faca Chef,Casa e Jardim,950.6,359
+11,Tênis Running,Esportes,2202.42,112
+12,Esteira Elétrica,Esportes,1824.28,142
+13,Halteres 10kg,Esportes,3247.15,3
+14,Bike Spinning,Esportes,3047.19,81
+15,Raquete Tênis,Esportes,2807.55,174
+16,Perfume Feminino,Beleza,160.5,110
+17,Creme Anti-idade,Beleza,479.79,172
+18,Sérum Vitamina C,Beleza,77.94,194
+19,Protetor Solar,Beleza,75.36,433
+20,Base Líquida,Beleza,191.56,135
+21,Clean Code,Livros,78.33,373
+22,O Poder do Hábito,Livros,57.47,63
+23,Sapiens,Livros,88.29,193
+24,Mindset,Livros,34.63,150
+25,Thinking Fast and Slow,Livros,79.66,316

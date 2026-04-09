@@ -1,0 +1,44 @@
+# docker-compose.yml
+version: "3.9"
+
+services:
+  # ─────────────────────────────────────────
+  # Supabase = PostgreSQL local (The Ledger)
+  # Usamos só o Postgres por enquanto.
+  # Em produção: usar o Supabase Cloud.
+  # ─────────────────────────────────────────
+  postgres:
+    image: postgres:15-alpine
+    container_name: shopagent_postgres
+    environment:
+      POSTGRES_USER: shopagent
+      POSTGRES_PASSWORD: shopagent_pass
+      POSTGRES_DB: shopagent_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./database/init.sql:/docker-entrypoint-initdb.d/init.sql
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U shopagent"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+  # ─────────────────────────────────────────
+  # Qdrant = banco vetorial (The Memory)
+  # Armazena embeddings de reviews e textos.
+  # Interface web em: http://localhost:6333/dashboard
+  # ─────────────────────────────────────────
+  qdrant:
+    image: qdrant/qdrant:latest
+    container_name: shopagent_qdrant
+    ports:
+      - "6333:6333"   # REST API
+      - "6334:6334"   # gRPC
+    volumes:
+      - qdrant_data:/qdrant/storage
+
+volumes:
+  postgres_data:
+  qdrant_data:
